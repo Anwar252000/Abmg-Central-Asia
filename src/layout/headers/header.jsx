@@ -1,16 +1,12 @@
 /* eslint-disable react/prop-types */
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Menu from './menu';
 import useSticky from '../../hooks/use-sticky.js';
-// import useGlobalContext from '../../hooks/use-context';
 
 const Header = ({ header_big, white_bg }) => {
 	const { headerSticky } = useSticky();
-
-	// const { setShowSidebar } = useGlobalContext();
-	const [showSidebar, setShowSidebar] = useState(false);
 
 	return (
 		<>
