@@ -4,7 +4,7 @@ const Vision = () => {
 	return (
 		<>
 			<div className='m-4 p-3 d-flex justify-content-center'>
-				<div className='section__title-wrapper mb-40 col-6'>
+				<div className='section__title-wrapper mb-40 col-8'>
 					<h2 className='text-start border-bottom'>Our Vision</h2>
 					<p>
 						At Ultimate Financial Advisor, our vision is to empower individuals

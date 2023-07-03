@@ -1,12 +1,16 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import Menu from './menu';
 import useSticky from '../../hooks/use-sticky.js';
+// import useGlobalContext from '../../hooks/use-context';
 
 const Header = ({ header_big, white_bg }) => {
 	const { headerSticky } = useSticky();
+
+	// const { setShowSidebar } = useGlobalContext();
+	const [showSidebar, setShowSidebar] = useState(false);
 
 	return (
 		<>
@@ -36,7 +40,7 @@ const Header = ({ header_big, white_bg }) => {
 									</div>
 									<div className='mobile-menu-btn d-lg-none'>
 										<button
-											// onClick={() => setShowSidebar(true)}
+											onClick={() => setShowSidebar(true)}
 											className='mobile-menu-toggle'
 										>
 											<i className='fas fa-bars'></i>

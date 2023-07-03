@@ -13,46 +13,56 @@ const OurTeam = () => {
                 </div> */}
 				</div>
 				<div className='row'>
-					<div className='teams my-4 mx-2 d-flex justify-content-center'>
-						<div className='member border shadow mx-4 col-3 p-3'>
+					<div className='teams my-4 mx-2 col-lg 3 col-md-3 col-sm-12 col-xs-12 w-100'>
+						<div className='card m-2 shadow'>
 							<div className='avatar'>
 								<img
-									className='rounded-circle w-50'
+									className='rounded-circle w-25'
 									src='./img/team/p1.jpg'
 									alt=''
 								/>
 							</div>
-							<h3 className='my-2'>Syed Umair Anwar</h3>
-							<p>
-								Fellow Member of Association of Chartered Certified Accountants
-							</p>
-							<p>14 Years of Experience</p>
+							<div className='card-body'>
+								<h3 className='card-title'>Syed Umair Anwar</h3>
+								<p className='card-text'>
+									Fellow Member of Association of Chartered Certified
+									Accountants
+								</p>
+								<p>14 Years of Experience</p>
+							</div>
 						</div>
 
-						<div className='member border shadow mx-4 col-3 p-3'>
+						<div className='card m-2 shadow'>
 							<div className='avatar'>
 								<img
-									className='rounded-circle w-50'
+									className='rounded-circle w-25'
 									src='./img/team/p3.jpg'
 									alt=''
 								/>
 							</div>
-							<h3 className='my-2'>Salman Ahsan</h3>
-							<p>CEO of Pak Premiere Education Consultancy</p>
+							<div className='card-body'>
+								<h3 className='card-title'>Salman Ahsan</h3>
+								<p className='card-text'>
+									CEO of Pak Premiere Education Consultancy
+								</p>
+							</div>
 						</div>
-						<div className='member border shadow mx-4 col-3 p-3'>
+						<div className='card m-2 shadow'>
 							<div className='avatar'>
 								<img
-									className='rounded-circle w-50'
+									className='rounded-circle w-25'
 									src='./img/team/p2.jpg'
 									alt=''
 								/>
 							</div>
-							<h3 className='my-2'>Faizan Mustafa</h3>
-							<p>
-								MBA Australia, MPA Australia, Associate member of CPA Australia
-							</p>
-							<p>10 Years of Experience</p>
+							<div className='card-body'>
+								<h3 className='card-title'>Faizan Mustafa</h3>
+								<p className='card-text'>
+									MBA Australia, MPA Australia, Associate member of CPA
+									Australia
+								</p>
+								<p>10 Years of Experience</p>
+							</div>
 						</div>
 					</div>
 				</div>
