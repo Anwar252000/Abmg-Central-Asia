@@ -2,90 +2,54 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Menu from './menu';
-import useSticky from '../../hooks/use-sticky.js';
-
-const Header = ({ header_big, white_bg }) => {
-	const { headerSticky } = useSticky();
-
+const Header = () => {
 	return (
 		<>
-			<header>
-				<div
-					id='header-sticky'
-					className={`header__area ${
-						header_big ? 'box-25' : !white_bg && 'grey-bg'
-					} 
-        ${headerSticky ? 'sticky' : 'shadow'}`}
+			<nav className='navbar navbar-expand-lg navbar-light bg-light'>
+				<Link className='navbar-brand mx-3' to='/'>
+					Ultimate Financial Advisor
+				</Link>
+				<button
+					className='navbar-toggler'
+					type='button'
+					data-toggle='collapse'
+					data-target='#navbarNav'
+					aria-controls='navbarNav'
+					aria-expanded='false'
+					aria-label='Toggle navigation'
 				>
-					<div className={`${header_big ? 'container-fluid' : 'container'}`}>
-						<div className='row align-items-center'>
-							<div className='col-xl-3 col-lg-3 col-md-4 col-sm-4'>
-								<div className='logo'>
-									<Link to='/'>
-										<strong>Ultimate Financial Advisor</strong>
-									</Link>
-								</div>
-							</div>
-							<div className='col-xl-9 col-lg-9 col-md-8 col-sm-8'>
-								<div className='header__right p-relative d-flex justify-content-between align-items-center'>
-									<div className='main-menu d-none d-lg-block'>
-										<nav>
-											<Menu />
-										</nav>
-									</div>
-									<div className='mobile-menu-btn d-lg-none'>
-										<button
-											onClick={() => setShowSidebar(true)}
-											className='mobile-menu-toggle'
-										>
-											<i className='fas fa-bars'></i>
-										</button>
-									</div>
-									<div className='header__action'>
-										<ul>
-											<li>
-												{/* <button
-													className='search-toggle'
-													onClick={() => dispatch(search_bar(true))}
-												>
-													<i className='ion-ios-search-strong'></i> Search
-												</button> */}
-											</li>
-											{/* <li>
-												{' '}
-												<button>
-													<i className='far fa-bars'></i>
-												</button>
-												<ul className='extra-info'>
-													{extra_info.map((item, index) => (
-														<li key={index}>
-															<div className={`${item.class}`}>
-																<div className='extra-title'>
-																	<h5>{item.title}</h5>
-																</div>
-																<ul>
-																	{item.listItems.map((list, index) => (
-																		<li key={index}>
-																			<Link to={`${list.link}`}>
-																				{`${list.title}`}
-																			</Link>
-																		</li>
-																	))}
-																</ul>
-															</div>
-														</li>
-													))}
-												</ul>
-											</li> */}
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					<span className='navbar-toggler-icon'></span>
+				</button>
+				<div className='collapse navbar-collapse' id='navbarNav'>
+					<ul className='navbar-nav mx-2'>
+						<li className='nav-item'>
+							<Link className='nav-link' to='/'>
+								Home
+							</Link>
+						</li>
+						<li className='nav-item'>
+							<Link className='nav-link' to='/vision'>
+								Our Vision
+							</Link>
+						</li>
+						<li className='nav-item'>
+							<Link className='nav-link' to='/about'>
+								About Us
+							</Link>
+						</li>
+						<li className='nav-item'>
+							<Link className='nav-link' to='/clients'>
+								Our Clients
+							</Link>
+						</li>
+						<li className='nav-item'>
+							<Link className='nav-link' to='/contact'>
+								Contact Us
+							</Link>
+						</li>
+					</ul>
 				</div>
-			</header>
+			</nav>
 
 			{/* search area start */}
 			{/* <Search /> */}
