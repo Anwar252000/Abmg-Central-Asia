@@ -5,6 +5,7 @@ import CompanyOverview from '../components/companyOverview';
 import OurTeam from '../components/our-team';
 import SubscribeArea from '../components/subscribe-area';
 import VideoBox from '../components/video-box';
+import Clients from '../components/common/brands/brands-2';
 
 const Home = () => {
 	return (
@@ -13,6 +14,7 @@ const Home = () => {
 			<CompanyOverview />
 			<OurTeam />
 			<VideoBox />
+			<Clients />
 			<SubscribeArea />
 		</>
 	);
