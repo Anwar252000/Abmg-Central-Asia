@@ -1,11 +1,13 @@
 import React from 'react';
+import Breadcrumb from '../components/common/breadcrumb';
 
 const Vision = () => {
 	return (
 		<>
+			<Breadcrumb title={'Our Vision'} subtitle={'Our Vision'} />
 			<div className='m-4 p-3 d-flex justify-content-center'>
 				<div className='section__title-wrapper mb-40 col-10'>
-					<h2 className='text-start border-bottom'>Our Vision</h2>
+					<h2 className='text-center border-bottom'>Our Vision</h2>
 					<p>
 						At Ultimate Financial Advisor, our vision is to empower individuals
 						and businesses to take control of their financial future and achieve

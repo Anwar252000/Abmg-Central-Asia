@@ -1,11 +1,13 @@
 import React from 'react';
+import Breadcrumb from '../components/common/breadcrumb';
 
 const About = () => {
 	return (
 		<>
+			<Breadcrumb title={'About Us'} subtitle={'About Us'} />
 			<div className='m-4 p-3 d-flex justify-content-center'>
 				<div className='section__title-wrapper mb-40 col-10'>
-					<h2 className='border-bottom'>About Us</h2>
+					<h2 className='border-bottom text-center'>About Us</h2>
 					<p>
 						Welcome to Ultimate Financial Advisor, your trusted partner in
 						financial planning and wealth management. With a passion for helping

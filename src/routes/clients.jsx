@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import clients from '../data/clients';
+import Breadcrumb from '../components/common/breadcrumb';
 
 const Cleints = () => {
 	return (
 		<>
+			<Breadcrumb title={'Our Clients'} subtitle={'Our Clients'} />
 			<div className='container border px-4 my-22'>
 				<div className='section__title-wrapper text-center mt-55 mb-25'>
 					<div className='section__title'>
