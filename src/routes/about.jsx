@@ -4,7 +4,7 @@ const About = () => {
 	return (
 		<>
 			<div className='m-4 p-3 d-flex justify-content-center'>
-				<div className='section__title-wrapper mb-40 col-8'>
+				<div className='section__title-wrapper mb-40 col-10'>
 					<h2 className='border-bottom'>About Us</h2>
 					<p>
 						Welcome to Ultimate Financial Advisor, your trusted partner in
