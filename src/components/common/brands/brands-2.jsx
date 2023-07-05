@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const settings = {
 	autoplay: true,
-	autoplaySpeed: 1000,
+	autoplaySpeed: 2000,
 	arrows: false,
 	infinite: true,
 	slidesToShow: 5,

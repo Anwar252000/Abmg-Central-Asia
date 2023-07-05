@@ -1,15 +1,13 @@
-import React from 'react';
-import Breadcrumb from '../components/common/breadcrumb';
+import Breadcrumb from '../common/breadcrumb';
+import ContactArea from '../components/contact/contact-area';
 
 const Contact = () => {
 	return (
 		<>
-			<div className='m-4 p-3 border rounded'>
+			<main>
 				<Breadcrumb title={'Contact Us'} subtitle={'Contact Us'} />
-				<div className='row'>
-					<h1>Contact</h1>
-				</div>
-			</div>
+				<ContactArea />
+			</main>
 		</>
 	);
 };

@@ -50,9 +50,7 @@ function HeroSlider({ home_six }) {
 													</p>
 													<div className='hero-slider-btn'>
 														<Link to='/contact'>
-															<a className='os-btn os-btn-2 os-btn-3'>
-																Get Now
-															</a>
+															<a className='os-btn os-btn-2'>Get Now</a>
 														</Link>
 													</div>
 												</div>
