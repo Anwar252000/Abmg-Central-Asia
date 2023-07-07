@@ -6,8 +6,12 @@ const Header = () => {
 	return (
 		<>
 			<nav className='navbar navbar-expand-lg navbar-light bg-light'>
-				<Link className='navbar-brand mx-3' to='/'>
-					Ultimate Financial Advisor
+				<Link className='navbar-brand mx-5' to='/'>
+					<img
+						src='img/logo/logo.jpg'
+						alt='Ultimate Financial Solutions'
+						style={{ width: 150 }}
+					/>
 				</Link>
 				<button
 					className='navbar-toggler'
