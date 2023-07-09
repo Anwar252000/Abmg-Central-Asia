@@ -14,6 +14,7 @@ const Experience = () => {
 						/>
 					</div>
 					<div class='col-sm-12 col-md-6 my-4'>
+						<h4>Experience</h4>
 						<p>
 							<i className='fa fa-check px-2' aria-hidden='true'></i>
 							We have a team with diverse qualifications like CPA, ACCA
