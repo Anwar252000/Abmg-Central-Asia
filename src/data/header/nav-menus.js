@@ -7,10 +7,10 @@ const nav_menus = [
 		link: '/about',
 		title: 'About Us',
 	},
-	{
-		link: '/vision',
-		title: 'Our Vision',
-	},
+	// {
+	// 	link: '/vision',
+	// 	title: 'Our Vision',
+	// },
 	{
 		link: '/clients',
 		title: 'Our Clints',

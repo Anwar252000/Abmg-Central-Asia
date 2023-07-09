@@ -6,7 +6,7 @@ const Header = () => {
 	return (
 		<>
 			<nav className='navbar navbar-expand-lg navbar-light bg-light'>
-				<Link className='navbar-brand mx-5' to='/'>
+				<Link className='navbar-brand mx-3' to='/'>
 					<img
 						src='img/logo/logo.jpg'
 						alt='Ultimate Financial Solutions'
@@ -31,11 +31,11 @@ const Header = () => {
 								Home
 							</Link>
 						</li>
-						<li className='nav-item'>
+						{/* <li className='nav-item'>
 							<Link className='nav-link' to='/vision'>
 								Our Vision
 							</Link>
-						</li>
+						</li> */}
 						<li className='nav-item'>
 							<Link className='nav-link' to='/about'>
 								About Us

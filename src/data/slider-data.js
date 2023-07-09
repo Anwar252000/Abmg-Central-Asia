@@ -3,9 +3,8 @@ export const home_slider = [
 		id: 1,
 		bgImg: 'img/Slider/S5.jpg',
 		title: 'Wellcome to Ultimate Financial Advisor',
-		subtitle1: 'Our financial advisors help you to boost your business',
-		subtitle2:
-			'and give advice for increasing your profit to the highest level.',
+		subtitle1: 'Business move fast and deadlines are short',
+		subtitle2: 'Never miss a beat',
 	},
 	{
 		id: 2,

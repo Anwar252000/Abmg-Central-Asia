@@ -32,8 +32,8 @@ const clients = [
 		id: 4,
 		img: 'img/client/c5.png',
 		title: 'Techfin CPA Firm',
-		annualTurnover: '',
-		industry: '',
+		annualTurnover: '20 million',
+		industry: 'TECHFIN CPA FIRM',
 		about:
 			'TechFin is a consulting and staffing firm that specializes in automation, specifically automation of all things Finance. Our CEO is a Certified Corporate Financial Planning & Analysis Professional and a former Founder, Entrepreneur and CEO of a successful eCommerce company. We have over 30 years of career experience in IT, Finance, eCommerce, early stage companies and publicly held Fortune 100 companies. We have worked in, or consulted for, eCommerce, telecommunications, transportation, retail and various other industries.',
 		link: 'http://techfinllc.com/',

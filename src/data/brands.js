@@ -24,6 +24,21 @@ const brands = [
 		img: 'img/client/c3.png',
 		link: 'https://www.cetdigit.com/',
 	},
+	{
+		id: 6,
+		img: 'img/client/c6.png',
+		link: '/',
+	},
+	{
+		id: 7,
+		img: 'img/client/c7.png',
+		link: '/',
+	},
+	{
+		id: 8,
+		img: 'img/client/c8.png',
+		link: '/',
+	},
 ];
 
 export default brands;
