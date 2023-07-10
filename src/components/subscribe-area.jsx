@@ -16,7 +16,7 @@ const SubscribeArea = ({ df, h4 }) => {
 							df ? 'subscribe__inner-2 pt-120' : 'pt-95'
 						}`}
 					>
-						<div className='row bg-dark py-4'>
+						<div className='row py-4'>
 							<div className='col-xl-8 offset-xl-2 col-lg-8 offset-lg-2'>
 								<div className='subscribe__content text-center'>
 									<h2>Get Discount Info</h2>
@@ -31,7 +31,7 @@ const SubscribeArea = ({ df, h4 }) => {
 												type='email'
 												placeholder='Subscribe to our newsletter...'
 											/>
-											<button className='os-btn os-btn-black'>subscribe</button>
+											<button className='os-btn os-btn-2'>subscribe</button>
 										</form>
 									</div>
 								</div>

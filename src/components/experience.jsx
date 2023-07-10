@@ -4,7 +4,7 @@ const Experience = () => {
 	return (
 		<>
 			<h2 className='text-center my-3 mx-1 bg-dark text-light'>EXPERIENCE</h2>
-			<div class='container bg-dark'>
+			<div class='container'>
 				<div class='row'>
 					<div class='col-sm-12 col-md-6 my-4'>
 						<img

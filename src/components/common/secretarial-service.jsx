@@ -6,7 +6,7 @@ const SecretarialService = () => {
 			<h2 className='text-center my-3 mx-1 bg-dark text-light'>
 				SECRETARIAL SERVICE
 			</h2>
-			<div class='container bg-success p-2'>
+			<div class='container p-2'>
 				<div class='row'>
 					<div class='col-sm-12 col-md-6'>
 						<h4>Secretarial Service</h4>

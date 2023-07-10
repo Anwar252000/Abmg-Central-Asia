@@ -79,7 +79,7 @@ const ContactForm = () => {
 				<div className='row'>
 					<div className='col-xl-12'>
 						<div className='contact__submit'>
-							<button type='submit' className='os-btn os-btn-black'>
+							<button type='submit' className='os-btn os-btn-2'>
 								Send Message
 							</button>
 						</div>

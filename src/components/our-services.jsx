@@ -4,7 +4,7 @@ const OurServices = () => {
 	return (
 		<>
 			<h2 className='text-center mx-1 bg-dark text-light'>OUR SERVICES</h2>
-			<div class='container bg-dark-blue'>
+			<div class='container'>
 				<div class='row'>
 					<div class='col-sm-12 col-md-6 my-4'>
 						<h4>We do things better</h4>

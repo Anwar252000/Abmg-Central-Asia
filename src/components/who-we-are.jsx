@@ -4,7 +4,7 @@ const WhoWeAre = () => {
 	return (
 		<>
 			<h2 className='text-center mx-1 bg-dark text-light'>WHO WE ARE</h2>
-			<div class='container my-2 py-4 bg-green'>
+			<div class='container my-2 py-4'>
 				<div class='row '>
 					<div class=' col-sm-12 col-md-6'>
 						<h4>We do things better</h4>
