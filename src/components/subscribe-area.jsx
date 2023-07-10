@@ -19,8 +19,8 @@ const SubscribeArea = ({ df, h4 }) => {
 						<div className='row bg-dark py-4'>
 							<div className='col-xl-8 offset-xl-2 col-lg-8 offset-lg-2'>
 								<div className='subscribe__content text-center'>
-									<h2 className='text-light'>Get Discount Info</h2>
-									<p className='text-light'>
+									<h2>Get Discount Info</h2>
+									<p>
 										Subscribe to the Ultimate Financial Advisor mailing list to
 										receive updates on new arrivals, special offers and other
 										discount information.
@@ -29,12 +29,9 @@ const SubscribeArea = ({ df, h4 }) => {
 										<form onSubmit={handleSubmit}>
 											<input
 												type='email'
-												className='text-light'
 												placeholder='Subscribe to our newsletter...'
 											/>
-											<button className='os-btn os-btn-2 os-btn-white'>
-												subscribe
-											</button>
+											<button className='os-btn os-btn-black'>subscribe</button>
 										</form>
 									</div>
 								</div>

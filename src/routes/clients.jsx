@@ -19,28 +19,28 @@ const Cleints = () => {
 							<div key={item.id}>
 								<Link to={item.link} target='_blank'>
 									{/* <img src={item.img} alt='client' /> */}
-									<h4 className='text-light'>{item.title}</h4>
+									<h4>{item.title}</h4>
 								</Link>
-								<p className='text-light'>
+								<p>
 									<span>
 										<b>Annual Turnover: </b>
 									</span>
 									${item.annualTurnover}
 								</p>
-								<p className='text-light'>
+								<p>
 									<span>
 										<b>Industry: </b>
 									</span>
 									{item.industry}
 								</p>
-								<p className='text-light'>
+								<p>
 									<span>
 										<b>About: </b>
 									</span>
 									{item.about}
 								</p>
 								<Link to={item.link} target='_blank'>
-									<button className='os-btn os-btn-white'>More Info</button>
+									<button className='os-btn os-btn-black'>More Info</button>
 								</Link>
 							</div>
 						</div>

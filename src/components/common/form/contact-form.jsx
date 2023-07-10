@@ -22,7 +22,7 @@ const ContactForm = () => {
 				<div className='row'>
 					<div className='col-xl-6 col-lg-6'>
 						<div className='contact__input'>
-							<label className='text-light'>
+							<label>
 								Name <span className='required'>*</span>
 							</label>
 							<input
@@ -37,7 +37,7 @@ const ContactForm = () => {
 					</div>
 					<div className='col-xl-6 col-lg-6'>
 						<div className='contact__input'>
-							<label className='text-light'>
+							<label>
 								Email <span className='required'>*</span>
 							</label>
 							<input
@@ -54,7 +54,7 @@ const ContactForm = () => {
 				<div className='row'>
 					<div className='col-xl-12'>
 						<div className='contact__input'>
-							<label className='text-light'>
+							<label>
 								Subject <span className='required'>*</span>
 							</label>
 							<input
@@ -71,7 +71,7 @@ const ContactForm = () => {
 				<div className='row'>
 					<div className='col-xl-12'>
 						<div className='contact__input'>
-							<label className='text-light'>Message</label>
+							<label>Message</label>
 							<textarea cols='30' rows='10'></textarea>
 						</div>
 					</div>
@@ -79,7 +79,7 @@ const ContactForm = () => {
 				<div className='row'>
 					<div className='col-xl-12'>
 						<div className='contact__submit'>
-							<button type='submit' className='os-btn os-btn-white'>
+							<button type='submit' className='os-btn os-btn-black'>
 								Send Message
 							</button>
 						</div>

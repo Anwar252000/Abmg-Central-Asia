@@ -7,20 +7,20 @@ const WhoWeAre = () => {
 			<div class='container my-2 py-4 bg-green'>
 				<div class='row '>
 					<div class=' col-sm-12 col-md-6'>
-						<h4 className='text-light'>We do things better</h4>
-						<p className='text-light'>
+						<h4>We do things better</h4>
+						<p>
 							<strong>PAK PREMIER HOSPITALITY SDN BHD</strong> proudly introduce
 							our Collaboration with
 							<strong> ULTIMATE FINANCAIL SOLUTIONS. </strong>Here we provide to
 							our prestigious customer for best Financial and Accounting
 							service.
 						</p>
-						<p className='text-light'>
+						<p>
 							We are a BPO firm dealing with many clients based in USA we are
 							already working with a CPA firm and as a growing business looking
 							for another collaboration for bookkeeping for your clients.
 						</p>
-						<p className='text-light'>
+						<p>
 							We serve sole trader businesses, close corporation sand limited
 							companies. Our dedicated staff members will meet your needs and
 							provide professional service regardless of the size of your

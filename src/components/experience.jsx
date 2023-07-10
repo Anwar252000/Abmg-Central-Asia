@@ -14,52 +14,52 @@ const Experience = () => {
 						/>
 					</div>
 					<div class='col-sm-12 col-md-6 my-4'>
-						<h4 className='text-light'>Experience</h4>
-						<p className='text-light'>
+						<h4>Experience</h4>
+						<p>
 							<i className='fa fa-check px-2' aria-hidden='true'></i>
 							We have a team with diverse qualifications like CPA, ACCA
 							Responsible for payroll Gusto, Paychex etc.
 						</p>
-						<p className='text-light'>
+						<p>
 							<i className='fa fa-check px-2' aria-hidden='true'></i>
 							Expert at designing accounting functions, systems, and best
 							practices.
 						</p>
-						<p className='text-light'>
+						<p>
 							<i className='fa fa-check px-2' aria-hidden='true'></i>
 							Responsible for reviewing & compiling client’s financial
 							statements from E-commerce, Health, Automobile.
 						</p>
-						<p className='text-light'>
+						<p>
 							<i className='fa fa-check px-2' aria-hidden='true'></i>
 							Responsible for reviewing & compiling client’s Construction,
 							Manufacturing & entertainment industries.
 						</p>
-						<p className='text-light'>
+						<p>
 							<i className='fa fa-check px-2' aria-hidden='true'></i>
 							Expertise in remote work with minimal supervision, ensured client
 							information confidentiality.
 						</p>
-						<p className='text-light'>
+						<p>
 							<i className='fa fa-check px-2' aria-hidden='true'></i>
 							Maintained positive relationships with prompt response to calls
 							and emails
 						</p>
-						<p className='text-light'>
+						<p>
 							<i className='fa fa-check px-2' aria-hidden='true'></i>
 							Experience using online tools like Slack, Asana, Hub staff, One
 							Drive, Google Drive, and Zoom.
 						</p>
-						<p className='text-light'>
+						<p>
 							<i className='fa fa-check px-2' aria-hidden='true'></i>
 							Bookkeeping, accounting, and payroll services.
 						</p>
-						<p className='text-light'>
+						<p>
 							<i className='fa fa-check px-2' aria-hidden='true'></i>
 							Expert in Costing, Budgeting, Forecasting, Financial Modeling,
 							Valuations, and more finance-related workings.
 						</p>
-						<p className='text-light'>
+						<p>
 							<i className='fa fa-check px-2' aria-hidden='true'></i>
 							ABN registration
 						</p>

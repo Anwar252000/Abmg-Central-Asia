@@ -9,8 +9,8 @@ const SecretarialService = () => {
 			<div class='container bg-success p-2'>
 				<div class='row'>
 					<div class='col-sm-12 col-md-6'>
-						<h4 className='text-light'>Secretarial Service</h4>
-						<p className='text-light'>
+						<h4>Secretarial Service</h4>
+						<p>
 							Welcome to Ultimate Financial Solutions, your trusted partner in
 							financial planning and wealth management. With a passion for
 							helping individuals and businesses achieve their financial goals,
