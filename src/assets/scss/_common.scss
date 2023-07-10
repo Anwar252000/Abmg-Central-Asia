@@ -13,23 +13,23 @@ body {
 	font-family: $pop;
 	font-size: 14px;
 	font-weight: normal;
-	background-color: rgba(0, 128, 0, 0.829);
+	background-color: lightblue;
 	color: $body-text-color;
 	line-height: 24px;
 	overflow-x: hidden;
 }
 
-.bg-purple{
-	background-color: purple;
-}
+// .bg-purple{
+// 	background-color: purple;
+// }
 
-.bg-dark-blue{
-	background-color: rgb(51, 32, 69);
-}
+// .bg-dark-blue{
+// 	background-color: rgb(51, 32, 69);
+// }
 
-.bg-green{
-background-color: rgb(72, 106, 72);
-}
+// .bg-green{
+// background-color: rgb(72, 106, 72);
+// }
 
 .w-img{
 	& img{
