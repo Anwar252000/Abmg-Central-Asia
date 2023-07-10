@@ -40,7 +40,7 @@ const Cleints = () => {
 									{item.about}
 								</p>
 								<Link to={item.link} target='_blank'>
-									<button className='os-btn os-btn-black'>More Info</button>
+									<button className='os-btn os-btn-2'>More Info</button>
 								</Link>
 							</div>
 						</div>

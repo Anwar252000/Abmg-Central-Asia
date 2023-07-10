@@ -7,7 +7,7 @@ const ContactArea = () => {
 				<div className='container bg-dark-blue'>
 					<div className='row'>
 						<div className='col-lg-8 offset-lg-2'>
-							<h1 className='text-center text-light py-3 mb-1'>Contact Us</h1>
+							<h1 className='text-center py-3 mb-1'>Contact Us</h1>
 							<h6 className='my-2'>
 								Customer feedback is the lifeblood of our business. Tell us
 								what’s on your mind, good or bad. We respond to all customer
