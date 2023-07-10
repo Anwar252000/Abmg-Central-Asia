@@ -7,7 +7,7 @@ const Cleints = () => {
 	return (
 		<>
 			<Breadcrumb title={'Our Clients'} subtitle={'Our Clients'} />
-			<div className='container border px-4 my-22'>
+			<div className='container bg-dark-blue border px-4 my-4'>
 				<div className='section__title-wrapper text-center mt-55 mb-25'>
 					<div className='section__title'>
 						<h2>Our Clients</h2>
@@ -15,32 +15,32 @@ const Cleints = () => {
 				</div>
 				{clients.map((item, index) => {
 					return (
-						<div className='card shadow p-5 m-3'>
+						<div className='card shadow p-5 m-3 bg-green'>
 							<div key={item.id}>
 								<Link to={item.link} target='_blank'>
 									{/* <img src={item.img} alt='client' /> */}
-									<h4>{item.title}</h4>
+									<h4 className='text-light'>{item.title}</h4>
 								</Link>
-								<p>
+								<p className='text-light'>
 									<span>
 										<b>Annual Turnover: </b>
 									</span>
 									${item.annualTurnover}
 								</p>
-								<p>
+								<p className='text-light'>
 									<span>
 										<b>Industry: </b>
 									</span>
 									{item.industry}
 								</p>
-								<p>
+								<p className='text-light'>
 									<span>
 										<b>About: </b>
 									</span>
 									{item.about}
 								</p>
 								<Link to={item.link} target='_blank'>
-									<button className='os os-btn'>More Info</button>
+									<button className='os-btn os-btn-white'>More Info</button>
 								</Link>
 							</div>
 						</div>

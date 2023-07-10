@@ -5,10 +5,10 @@ const About = () => {
 	return (
 		<>
 			<Breadcrumb title={'About Us'} subtitle={'About Us'} />
-			<div className='m-4 p-3 d-flex justify-content-center'>
+			<div className='m-4 p-3 d-flex justify-content-center bg-dark-blue'>
 				<div className='section__title-wrapper mb-40 col-10'>
-					<h2 className='border-bottom text-center'>About Us</h2>
-					<p>
+					<h2 className='border-bottom text-center text-light'>About Us</h2>
+					<p className='text-light'>
 						Welcome to Ultimate Financial Advisor, your trusted partner in
 						financial planning and wealth management. With a passion for helping
 						individuals and businesses achieve their financial goals, we provide
@@ -22,8 +22,8 @@ const About = () => {
 						strategies for tax optimization, we have the knowledge and expertise
 						to guide you every step of the way.
 					</p>
-					<h5>Our Approach :</h5>
-					<p>
+					<h5 className='text-light'>Our Approach :</h5>
+					<p className='text-light'>
 						We believe that financial planning is not just about numbers;
 						it&#39;s about understanding your aspirations, dreams, and values.
 						By taking the time to listen and learn about your specific goals, we

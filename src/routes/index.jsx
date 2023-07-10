@@ -10,7 +10,7 @@ import WhoWeAre from '../components/who-we-are';
 import WhatWeDo from '../components/what-we-do';
 import OurServices from '../components/our-services';
 import Experience from '../components/experience';
-import SecretarialService from '../components/contact/secretarial-service';
+import SecretarialService from '../components/common/secretarial-service';
 
 const Home = () => {
 	return (
