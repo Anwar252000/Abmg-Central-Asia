@@ -4,9 +4,9 @@ const WhoWeAre = () => {
 	return (
 		<>
 			<h2 className='text-center mx-1 bg-dark text-light'>WHO WE ARE</h2>
-			<div class='container my-2 py-4'>
-				<div class='row '>
-					<div class=' col-sm-12 col-md-6'>
+			<div className='container my-2 py-4'>
+				<div className='row '>
+					<div className=' col-sm-12 col-md-6'>
 						<h4>We do things better</h4>
 						<p>
 							<strong>PAK PREMIER HOSPITALITY SDN BHD</strong> proudly introduce
@@ -28,10 +28,10 @@ const WhoWeAre = () => {
 							has distinct financial budgets.
 						</p>
 					</div>
-					<div class='col-sm-12 col-md-6'>
+					<div className='col-sm-12 col-md-6'>
 						<img
 							src='img/intro/whoweare.jpg'
-							class='img-fluid float-start mb-3 mb-md-0'
+							className='img-fluid float-start mb-3 mb-md-0 shadow rounded'
 							alt='Right-hand side image'
 						/>
 					</div>

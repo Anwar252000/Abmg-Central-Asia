@@ -4,16 +4,16 @@ const Experience = () => {
 	return (
 		<>
 			<h2 className='text-center my-3 mx-1 bg-dark text-light'>EXPERIENCE</h2>
-			<div class='container'>
-				<div class='row'>
-					<div class='col-sm-12 col-md-6 my-4'>
+			<div className='container'>
+				<div className='row'>
+					<div className='col-sm-12 col-md-6 my-4'>
 						<img
 							src='img/intro/experience.jpg'
-							class='img-fluid'
+							className='img-fluid shadow rounded'
 							alt='Right-hand side image'
 						/>
 					</div>
-					<div class='col-sm-12 col-md-6 my-4'>
+					<div className='col-sm-12 col-md-6 my-4'>
 						<h4>Experience</h4>
 						<p>
 							<i className='fa fa-check px-2' aria-hidden='true'></i>

@@ -9,7 +9,7 @@ const WhatWeDo = () => {
 					<div className='col-sm-12 col-md-6'>
 						<img
 							src='img/intro/whatwedo.jpg'
-							className='img-fluid'
+							className='img-fluid shadow rounded'
 							alt='Right-hand side image'
 						/>
 					</div>

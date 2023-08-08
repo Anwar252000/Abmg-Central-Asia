@@ -6,31 +6,28 @@ const About = () => {
 		<>
 			<Breadcrumb title={'About Us'} subtitle={'About Us'} />
 			<div className='m-4 p-3 d-flex justify-content-center bg-dark-blue'>
-				<div className='section__title-wrapper mb-40 col-10'>
-					<h2 className='border-bottom text-center'>About Us</h2>
-					Welcome to Ultimate Financial Advisor, your trusted partner in
-					financial planning and wealth management. With a passion for helping
-					individuals and businesses achieve their financial goals, we provide
-					expert guidance and personalized solutions tailored to your unique
-					needs. <br />
-					At Ultimate Financial Advisor, we understand that managing your
-					finances can be complex and overwhelming. That&#39;s why our team of
-					experienced financial advisors is here to simplify the process,
-					offering you clarity and peace of mind. Whether you&#39;re planning
-					for retirement, looking to grow your investments, or seeking
-					strategies for tax optimization, we have the knowledge and expertise
-					to guide you every step of the way.
-					<div />
-					<h5>Our Approach :</h5>
+				<div className='section__title-wrapper mb-40 col-8'>
+					<h2 className='text-center'>About Us</h2>
 					<p>
-						We believe that financial planning is not just about numbers;
-						it&#39;s about understanding your aspirations, dreams, and values.
-						By taking the time to listen and learn about your specific goals, we
-						can develop a customized plan that aligns with your vision of a
-						secure financial future. We combine our in-depth industry knowledge
-						with a personalized approach, ensuring that our recommendations are
-						tailored to your unique circumstances.
+						<strong>ABM GROUP</strong> is a comprehensive business management
+						group consist of investment holding principal company Apex Business
+						Management Group Sdn Bhd and its subsidiaries.
 					</p>
+					<p>
+						Our group of company aim to provide solutions for business owner and
+						investor in terms of sustainability, growth, and capitalization in
+						their business venture and nurturing them from the formation stage.
+					</p>
+					<p>
+						Our role is to support and help business owner to learn more about
+						their business, providing aid to our customers by giving them the on
+						time advice on their business vital and business compliances.
+					</p>
+					<p>
+						Ultimately, we provide our customers strategy for long term growth
+						and sustainability through capital market.
+					</p>
+					<div />
 				</div>
 			</div>
 		</>

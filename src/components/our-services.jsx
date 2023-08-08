@@ -4,9 +4,9 @@ const OurServices = () => {
 	return (
 		<>
 			<h2 className='text-center mx-1 bg-dark text-light'>OUR SERVICES</h2>
-			<div class='container'>
-				<div class='row'>
-					<div class='col-sm-12 col-md-6 my-4'>
+			<div className='container'>
+				<div className='row'>
+					<div className='col-sm-12 col-md-6 my-4'>
 						<h4>We do things better</h4>
 						<h3>We also offer the following services;</h3>
 						<h5>
@@ -71,10 +71,10 @@ const OurServices = () => {
 							It strategy & due diligence
 						</p>
 					</div>
-					<div class='col-sm-12 col-md-6'>
+					<div className='col-sm-12 col-md-6'>
 						<img
 							src='img/intro/service.jpg'
-							class='img-fluid'
+							className='img-fluid shadow rounded'
 							alt='Right-hand side image'
 						/>
 					</div>

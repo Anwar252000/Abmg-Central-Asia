@@ -2,9 +2,11 @@ const teams = [
 	{
 		id: 1,
 		img: '/img/team/p1.jpg',
-		name: 'Syed Umair Anwar',
-		info: 'Managing Partner & CEO ULTIMATE FINANCIAL SOLUTIONS Fellow Member of Association of Chartered Certified Accountants.',
+		name: 'Ts. Dr. Liew Taik Hwa',
+		info: 'Director of ABM Group & KEC Group President for The Beacon Society (NGO)',
 		experience: '14 Years of Experience',
+		achievement:
+			'2015 SMERA Rising Star Award, 2016 Platinum Business Award, 2019 Platinum Business Award',
 	},
 	{
 		id: 2,
