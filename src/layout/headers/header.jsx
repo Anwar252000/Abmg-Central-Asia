@@ -8,7 +8,7 @@ const Header = () => {
 			<nav className='navbar navbar-expand-lg navbar-light bg-light'>
 				<Link className='navbar-brand mx-3' to='/'>
 					<img
-						src='img/logo/logo.jpg'
+						src='img/logo/logo2.png'
 						alt='Ultimate Financial Solutions'
 						style={{ width: 150 }}
 					/>

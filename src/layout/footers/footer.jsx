@@ -38,7 +38,7 @@ const Footer = ({ df }) => {
 										<Link to='/'>
 											<a>
 												<img
-													src='img/logo/logo.jpg'
+													src='img/logo/logo2.png'
 													alt='logo'
 													className='w-50'
 												/>
@@ -46,7 +46,7 @@ const Footer = ({ df }) => {
 										</Link>
 									</div>
 									<div className='footer__widget-content'>
-										<p>Ultimate Financial Advisor.</p>
+										<p>APEX BUSINESS MANAGMENT GROUP.</p>
 										<div className='footer__contact'>
 											<ul>
 												<li>
@@ -55,8 +55,8 @@ const Footer = ({ df }) => {
 													</div>
 													<div className='text'>
 														<span>
-															Add: Office # 2, 13 A (First Floor) JalanKenari9,
-															Bandar Pochong Jaya 47100 Selangor, Malaysia
+															Add: Mezzanine 1B, Menara PKNS, 17 Jalan Yong
+															Shook Lin, 46050 Petaling Jaya, Selangor, Malaysia
 														</span>
 													</div>
 												</li>
@@ -65,9 +65,7 @@ const Footer = ({ df }) => {
 														<i className='fal fa-envelope-open-text'></i>
 													</div>
 													<div className='text'>
-														<span>Email: pakpremierhos@gmail.com </span>
-														<br />
-														<span>info@ultimatefinancialsolutions.com</span>
+														<span>info@apexbusinessmanagmentgroup.com</span>
 													</div>
 												</li>
 												<li>
@@ -75,7 +73,7 @@ const Footer = ({ df }) => {
 														<i className='fal fa-phone-alt'></i>
 													</div>
 													<div className='text'>
-														<span>Phone Number: +6019274-2860</span>
+														<span>Phone Number: +600000-12345</span>
 													</div>
 												</li>
 											</ul>
@@ -95,7 +93,7 @@ const Footer = ({ df }) => {
 										©{' 2023 '}
 										All rights reserved
 										<Link to='/'>
-											<a> Ultimate Financial Advisor</a>
+											<a> Apex Business Managment Group</a>
 										</Link>
 									</p>
 								</div>

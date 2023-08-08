@@ -11,7 +11,7 @@ const WhoWeAre = () => {
 						<p>
 							<strong>PAK PREMIER HOSPITALITY SDN BHD</strong> proudly introduce
 							our Collaboration with
-							<strong> ULTIMATE FINANCAIL SOLUTIONS. </strong>Here we provide to
+							<strong> APEX BUSINESS MANAGMENT GROUP </strong>Here we provide to
 							our prestigious customer for best Financial and Accounting
 							service.
 						</p>

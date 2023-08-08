@@ -11,11 +11,11 @@ const SecretarialService = () => {
 					<div className='col-sm-12 col-md-6'>
 						<h4>Secretarial Service</h4>
 						<p>
-							Welcome to Ultimate Financial Solutions, your trusted partner in
+							Welcome to APEX BUSINESS MANAGMENT GROUP, your trusted partner in
 							financial planning and wealth management. With a passion for
 							helping individuals and businesses achieve their financial goals,
 							we provide expert guidance and personalized Solutions tailored to
-							your unique needs. At Ultimate Financial Solutions, we understand
+							your unique needs. At APEX BUSINESS MANAGMENT GROUP, we understand
 							that managing your finance scan be complex and over whelming.
 							That's why our team of experienced financial solutions is here to
 							simplify the process, offering you clarity and peace of mind.
