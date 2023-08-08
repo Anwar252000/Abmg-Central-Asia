@@ -1,7 +1,7 @@
 const teams = [
 	{
 		id: 1,
-		img: '/img/team/p1.jpg',
+		img: '/img/team/t1.jpg',
 		name: 'Ts. Dr. Liew Taik Hwa',
 		info: 'Director of ABM Group & KEC Group President for The Beacon Society (NGO)',
 		experience: '14 Years of Experience',
@@ -10,7 +10,7 @@ const teams = [
 	},
 	{
 		id: 2,
-		img: '/img/team/p3.jpg',
+		img: '/img/team/t2.jpg',
 		name: 'Salman Ahsan',
 		info: 'CEO of Pak Premier Hospitality  SDN BHD Malaysia.',
 	},

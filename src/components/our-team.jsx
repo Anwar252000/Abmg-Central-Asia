@@ -27,12 +27,8 @@ const OurTeam = () => {
 						{teams.map((item, index) => {
 							return (
 								<div className='card m-2 shadow'>
-									<div className='avatar'>
-										<img
-											className='rounded-circle w-25'
-											src={item.img}
-											alt=''
-										/>
+									<div>
+										<img className=' my-1 w-25' src={item.img} alt='' />
 									</div>
 									<div className='card-body'>
 										<h3 className='card-title'>{item.name}</h3>
