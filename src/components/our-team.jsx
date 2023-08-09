@@ -12,21 +12,14 @@ const OurTeam = () => {
 					{/* <div className="section__sub-title">
                   <p>Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
                 </div> */}
-					<p>
-						<strong>APEX BUSINESS MANAGEMENT GROUP</strong> is led by Certified
-						Business Administration professionals, and associates member from
-						various sector of professional such as accountants, company
-						secretaries, auditors, tax agent, liquidators, lawyers, finance
-						consultant, IT specialist, marketing specialist etc. We set our goal
-						for global presence and work our way towards international
-						recognition. Our client achievement will be our success.
-					</p>
 				</div>
 				<div className='row'>
 					<div className='teams my-4 mx-2 d-flex col-lg 3 col-md-3 col-sm-1 col-xs-1 w-100'>
 						{teams.map((item, index) => {
 							return (
-								<div className='card m-2 shadow'>
+								<div className='card m-2 w-100 shadow'>
+									<h3 className='pt-2'>Our Founder</h3>
+									<p className='px-4'>{item.founder}</p>
 									<div>
 										<img className=' my-1 w-25' src={item.img} alt='' />
 									</div>
