@@ -23,7 +23,7 @@ const OurTeam = () => {
 					</p>
 				</div>
 				<div className='row'>
-					<div className='teams my-4 mx-2 col-lg 3 col-md-3 col-sm-12 col-xs-12 w-100'>
+					<div className='teams my-4 mx-2 d-flex col-lg 3 col-md-3 col-sm-1 col-xs-1 w-100'>
 						{teams.map((item, index) => {
 							return (
 								<div className='card m-2 shadow'>
