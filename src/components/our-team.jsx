@@ -13,8 +13,8 @@ const OurTeam = () => {
                   <p>Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
                 </div> */}
 				</div>
-				<div className='row'>
-					<div className='teams my-4 mx-2 d-flex col-lg-3 col-md-3 col-sm-1 col-xs-1 w-100'>
+				<div className=''>
+					<div className='teams my-4 mx-2 d-flex flex-column flex-md-row'>
 						{teams.map((item, index) => {
 							return (
 								<div className='card m-2 w-100 shadow'>
