@@ -16,8 +16,8 @@ const Introduction = () => {
 						<h2>VISION</h2>
 					</div>
 					<p className='text-light'>
-						ISION To empower our clients and build a better business environment
-						with infinite possibilities
+						VISION To empower our clients and build a better business
+						environment with infinite possibilities
 					</p>
 				</div>
 				<div

@@ -19,7 +19,11 @@ const OurTeam = () => {
 							return (
 								<div className='card m-2 w-100 shadow'>
 									<div>
-										<img className=' my-1 w-25' src={item.img} alt='' />
+										<img
+											className='my-1 w-25 border border-primary rounded'
+											src={item.img}
+											alt=''
+										/>
 									</div>
 									<div className='card-body'>
 										<h3 className='card-title'>{item.name}</h3>
