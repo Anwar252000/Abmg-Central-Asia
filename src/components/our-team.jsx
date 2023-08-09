@@ -30,7 +30,11 @@ const OurTeam = () => {
 										<p className='card-text'>{item.info}</p>
 										<p className='card-text'>{item.experience}</p>
 										<p>{item.achievement}</p>
-										<p className='px-4'>{item.founder}</p>
+										<p className='px-4'>
+											<i className='fa fa-quote-left' aria-hidden='true'></i>
+											{item.founder}
+											<i className='fa fa-quote-right' aria-hidden='true'></i>
+										</p>
 									</div>
 								</div>
 							);
