@@ -7,7 +7,7 @@ const About = () => {
 			<Breadcrumb title={'About Us'} subtitle={'About Us'} />
 			<div className='m-4 p-3 d-flex justify-content-center bg-dark-blue'>
 				<div className='section__title-wrapper mb-40 col-8-lg col-10-md col-10-sm'>
-					<h2 className='text-center'>About Us</h2>
+					<h2 className='component-heading mb-4'>About Us</h2>
 					<p>
 						<strong>ABM GROUP</strong> is a comprehensive business management
 						group consist of investment holding principal company Apex Business

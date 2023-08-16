@@ -15,8 +15,8 @@ import SecretarialService from '../components/secretarial-service';
 const Home = () => {
 	return (
 		<>
-			<VideoBox />
 			<HeroSlider />
+			<VideoBox />
 			<Introduction />
 			<WhoWeAre />
 			<WhatWeDo />

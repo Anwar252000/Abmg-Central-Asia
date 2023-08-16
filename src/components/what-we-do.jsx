@@ -3,7 +3,7 @@ import React from 'react';
 const WhatWeDo = () => {
 	return (
 		<>
-			<h2 className='text-center mx-1 bg-dark text-light'>WHAT WE DO</h2>
+			<h2 className='component-heading'>WHAT WE DO</h2>
 			<div className='container my-2 py-4'>
 				<div className='row'>
 					<div className='col-sm-12 col-md-6'>

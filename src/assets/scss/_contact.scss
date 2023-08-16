@@ -93,9 +93,10 @@
         & textarea{
             height: 50px;
             width: 100%;
-            border: 1px solid #ececec;
+            border: 1px solid #0000009e;
             padding: 0 15px;
             font-size: 14px;
+            background-color: transparent;
             // margin-bottom: 22px;
             &:focus{
                 border-color: $theme-color;

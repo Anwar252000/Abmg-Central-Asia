@@ -7,12 +7,8 @@ const Cleints = () => {
 	return (
 		<>
 			<Breadcrumb title={'Our Clients'} subtitle={'Our Clients'} />
-			<div className='container bg-dark-blue border px-4 my-4'>
-				<div className='section__title-wrapper text-center mt-55 mb-25'>
-					<div className='section__title'>
-						<h2>Our Clients</h2>
-					</div>
-				</div>
+			<h2 className='component-heading mt-4'>Our Clients</h2>
+			<div className='container bg-dark-blue px-4 my-4'>
 				{clients.map((item, index) => {
 					return (
 						<div className='card shadow p-5 m-3 bg-green'>

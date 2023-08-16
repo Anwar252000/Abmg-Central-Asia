@@ -40,19 +40,11 @@ const settings = {
 const Clients = ({ df }) => {
 	return (
 		<>
+			<h2 className='component-heading'>Our Clients</h2>
 			<section className={`client__area ${df ? 'pt-80' : 'pt-80 pb-80'}`}>
 				<div className='container'>
 					<div className='row'>
-						<div className='col-xl-12'>
-							<div className='section__title-wrapper text-center mb-55'>
-								<div className='section__title mb-10'>
-									<h2>Our Clients</h2>
-								</div>
-								{/* <div className="section__sub-title">
-                  <p>Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
-                </div> */}
-							</div>
-						</div>
+						<div className='col-xl-12'></div>
 					</div>
 					<div className='row'>
 						<div className='col-xl-12'>

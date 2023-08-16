@@ -3,9 +3,7 @@ import React from 'react';
 const SecretarialService = () => {
 	return (
 		<>
-			<h2 className='text-center my-3 mx-1 bg-dark text-light'>
-				SECRETARIAL SERVICE
-			</h2>
+			<h2 className='component-heading'>SECRETARIAL SERVICE</h2>
 			<div className='container'>
 				<div className='row'>
 					<div className='col-sm-12 col-md-6'>

@@ -5,14 +5,7 @@ const OurTeam = () => {
 	return (
 		<>
 			<div className='m-3 p-3 rounded text-center'>
-				<div className='section__title-wrapper text-center mb-10'>
-					<div className='section__title mb-10'>
-						<h2 className='bg-dark w-100 text-light'>Our Founders</h2>
-					</div>
-					{/* <div className="section__sub-title">
-                  <p>Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
-                </div> */}
-				</div>
+				<h2 className='component-heading'>Our Founders</h2>
 				<div className=''>
 					<div className='teams my-4 mx-2 d-flex flex-column flex-md-row'>
 						{teams.map((item, index) => {

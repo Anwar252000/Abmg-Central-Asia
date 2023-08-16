@@ -3,14 +3,12 @@ import React from 'react';
 const WhoWeAre = () => {
 	return (
 		<>
-			<h2 className='text-center mx-1 bg-dark text-light'>WHO WE ARE</h2>
+			<h1 className='component-heading'>WHO WE ARE</h1>
 			<div className='container my-2 py-4'>
 				<div className='row '>
 					<div className=' col-sm-12 col-md-6'>
 						<h4>We do things better</h4>
 						<p>
-							<strong>PAK PREMIER HOSPITALITY SDN BHD</strong> proudly introduce
-							our Collaboration with
 							<strong> APEX BUSINESS MANAGMENT GROUP </strong>Here we provide to
 							our prestigious customer for best Financial and Accounting
 							service.

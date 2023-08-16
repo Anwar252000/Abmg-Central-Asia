@@ -14,7 +14,7 @@ const teams = [
 		img: '/img/team/t2.jpg',
 		name: 'Mr. Salman Ahsan',
 		founder:
-			' BMG Central Asia is led by our partner from Pakistan. Qualified Business Administration professionals, with extensive experienced in Finance & Marketing (online & offline) and international trades affair, our partner is managing one of our most important division office in the region. ABMG Central Asia is ABMG back office operation which providing back office support to ABMG as well as to the group clients. info: Director of ABM Group & KEC Group President for The Beacon Society (NGO) ',
+			' ABMG Central Asia is led by our partner from Pakistan. Qualified Business Administration professionals, with extensive experienced in Finance & Marketing (online & offline) and international trades affair, our partner is managing one of our most important division office in the region. ABMG Central Asia is ABMG back office operation which providing back office support to ABMG as well as to the group clients. info: Director of ABM Group & KEC Group President for The Beacon Society (NGO) ',
 		experience: '20 Years of working exp',
 		info: 'Msc (ECO), Bsc (Hon) Commerce.',
 	},

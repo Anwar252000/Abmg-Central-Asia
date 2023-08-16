@@ -3,7 +3,7 @@ import React from 'react';
 const OurServices = () => {
 	return (
 		<>
-			<h2 className='text-center mx-1 bg-dark text-light'>OUR SERVICES</h2>
+			<h2 className='component-heading'>OUR SERVICES</h2>
 			<div className='container'>
 				<div className='row'>
 					<div className='col-sm-12 col-md-6 my-4'>

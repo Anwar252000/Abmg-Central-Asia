@@ -14,18 +14,24 @@ body {
 	font-size: 14px;
 	font-weight: normal;
 	background-color: lightblue;
-	color: $body-text-color;
+	color: white;
 	line-height: 24px;
 	overflow-x: hidden;
+}
+
+.component-heading{
+	background-color: rgb(59, 19, 96);
+	padding: 30px 0;
+	color: white;
+	font-weight: bold;
+	margin: 4px 10px;
+	text-align: center;
 }
 
 // .bg-purple{
 // 	background-color: purple;
 // }
 
-// .bg-dark-blue{
-// 	background-color: rgb(51, 32, 69);
-// }
 
 // .bg-green{
 // background-color: rgb(72, 106, 72);
