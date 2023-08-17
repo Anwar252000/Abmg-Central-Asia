@@ -3,7 +3,7 @@ import React from 'react';
 const Introduction = () => {
 	return (
 		<>
-			<div className='m-4 p-2 d-flex'>
+			<div className='m-4 p-2 d-flex flex-column flex-md-row align-items-center'>
 				<div className='section__title-wrapper text-center w-50 m-1 card'>
 					<i className='fa fa-eye pt-3' style={{ fontSize: 40 }}></i>
 					<div className='section__title my-3'>
@@ -14,7 +14,7 @@ const Introduction = () => {
 						environment with infinite possibilities
 					</p>
 				</div>
-				<div className='section__title-wrapper text-center w-50 m-1 card'>
+				<div className='section__title-wrapper text-center w-50 m-1 card px-4'>
 					<i
 						className='fas fa-bullseye-pointer pt-3'
 						style={{ fontSize: 40 }}
