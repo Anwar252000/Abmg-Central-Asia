@@ -40,7 +40,7 @@ const Footer = ({ df }) => {
 												<img
 													src='img/logo/logo2.png'
 													alt='logo'
-													className='w-50'
+													className='w-25'
 												/>
 											</a>
 										</Link>
