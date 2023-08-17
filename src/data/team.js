@@ -5,7 +5,7 @@ const teams = [
 		name: 'Ts. Dr. Liew Taik Hwa',
 		info: 'MMIM, DBA, M.Eng, B.Eng 20 years working exp Director of ABM Group & KEC Group President for The Beacon Society (NGO)',
 		founder:
-			' APEX BUSINESS MANAGEMENT GROUP is led by Certified Business Administration professionals, and associates member from various sector of professional such as accountants, company secretaries, auditors, tax agent, liquidators, lawyers, finance consultant, IT specialist, marketing specialist etc. We set our goal for global presence and work our way towards international recognition. Our client achievement will be our success. ',
+			' ABMG Central Asia is led by Certified Business Administration professionals, and associates member from various sector of professional such as accountants, company secretaries, auditors, tax agent, liquidators, lawyers, finance consultant, IT specialist, marketing specialist etc. We set our goal for global presence and work our way towards international recognition. Our client achievement will be our success. ',
 		achievement:
 			'2015 SMERA Rising Star Award, 2016 Platinum Business Award, 2019 Platinum Business Award',
 	},

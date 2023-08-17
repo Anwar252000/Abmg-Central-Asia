@@ -46,7 +46,7 @@ const Footer = ({ df }) => {
 										</Link>
 									</div>
 									<div className='footer__widget-content'>
-										<p>APEX BUSINESS MANAGMENT GROUP.</p>
+										<p>ABMG Central Asia.</p>
 										<div className='footer__contact'>
 											<ul>
 												<li>
@@ -93,7 +93,7 @@ const Footer = ({ df }) => {
 										©{' 2023 '}
 										All rights reserved
 										<Link to='/'>
-											<a> Apex Business Managment Group</a>
+											<a> ABMG Central Asia</a>
 										</Link>
 									</p>
 								</div>
