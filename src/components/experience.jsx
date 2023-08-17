@@ -3,66 +3,29 @@ import React from 'react';
 const Experience = () => {
 	return (
 		<>
-			<h2 className='component-heading'>EXPERIENCE</h2>
-			<div className='container'>
-				<div className='row'>
-					<div className='col-sm-12 col-md-6 my-4'>
-						<img
-							src='img/intro/experience.jpg'
-							className='img-fluid shadow rounded'
-							alt='Right-hand side image'
-						/>
+			<h1 className='component-heading'>OUR SERVICES</h1>
+			<div className='container my-2 py-4'>
+				<h2 className='heading'>VISAS & OTHER SERVICES</h2>
+				<div className='d-flex justify-content-between align-items-center'>
+					<div className='col-sm-12 col-md-6'>
+						<img src='img/intro/whoweare.png' className='img-fluid' alt='img' />
 					</div>
-					<div className='col-sm-12 col-md-6 my-4'>
-						<h4>Experience</h4>
+					<div className=' col-sm-12 col-md-6'>
 						<p>
-							<i className='fa fa-check px-2' aria-hidden='true'></i>
-							We have a team with diverse qualifications like CPA, ACCA
-							Responsible for payroll Gusto, Paychex etc.
+							We provide one stop solution for foreign business client in
+							investing and operating business in Malaysia
 						</p>
+						<h4>ESD/MM2H Visa</h4>
 						<p>
-							<i className='fa fa-check px-2' aria-hidden='true'></i>
-							Expert at designing accounting functions, systems, and best
-							practices.
+							Expatriate visa for Director, Managers, Skill specialist of
+							company, MM2H etc
 						</p>
-						<p>
-							<i className='fa fa-check px-2' aria-hidden='true'></i>
-							Responsible for reviewing & compiling client’s financial
-							statements from E-commerce, Health, Automobile.
-						</p>
-						<p>
-							<i className='fa fa-check px-2' aria-hidden='true'></i>
-							Responsible for reviewing & compiling client’s Construction,
-							Manufacturing & entertainment industries.
-						</p>
-						<p>
-							<i className='fa fa-check px-2' aria-hidden='true'></i>
-							Expertise in remote work with minimal supervision, ensured client
-							information confidentiality.
-						</p>
-						<p>
-							<i className='fa fa-check px-2' aria-hidden='true'></i>
-							Maintained positive relationships with prompt response to calls
-							and emails
-						</p>
-						<p>
-							<i className='fa fa-check px-2' aria-hidden='true'></i>
-							Experience using online tools like Slack, Asana, Hub staff, One
-							Drive, Google Drive, and Zoom.
-						</p>
-						<p>
-							<i className='fa fa-check px-2' aria-hidden='true'></i>
-							Bookkeeping, accounting, and payroll services.
-						</p>
-						<p>
-							<i className='fa fa-check px-2' aria-hidden='true'></i>
-							Expert in Costing, Budgeting, Forecasting, Financial Modeling,
-							Valuations, and more finance-related workings.
-						</p>
-						<p>
-							<i className='fa fa-check px-2' aria-hidden='true'></i>
-							ABN registration
-						</p>
+						<h4>Banking Facilities</h4>
+						<p>Operating bank account for the company, etc</p>
+						<h4>Office Premise</h4>
+						<p>Co-working space rental, sourcing of rental office etc</p>
+						<h4>Business Matching</h4>
+						<p>Business portfolio matching, investment advisory, etc</p>
 					</div>
 				</div>
 			</div>

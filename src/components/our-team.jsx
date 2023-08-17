@@ -5,18 +5,14 @@ const OurTeam = () => {
 	return (
 		<>
 			<div className='m-3 p-3 rounded text-center'>
-				<h2 className='component-heading'>Our Founders</h2>
+				<h1 className='component-heading'>OUR FOUNDERS</h1>
 				<div className=''>
 					<div className='teams my-4 mx-2 d-flex flex-column flex-md-row'>
 						{teams.map((item, index) => {
 							return (
 								<div className='card m-2 w-100 shadow'>
-									<div>
-										<img
-											className='my-1 w-25 border border-primary rounded'
-											src={item.img}
-											alt=''
-										/>
+									<div style={{ backgroundImage: "url('img/team/bg.png')" }}>
+										<img className='my-1 w-50' src={item.img} alt='' />
 									</div>
 									<div className='card-body'>
 										<h3 className='card-title'>{item.name}</h3>

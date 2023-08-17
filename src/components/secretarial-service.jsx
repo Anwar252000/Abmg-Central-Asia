@@ -3,31 +3,40 @@ import React from 'react';
 const SecretarialService = () => {
 	return (
 		<>
-			<h2 className='component-heading'>SECRETARIAL SERVICE</h2>
-			<div className='container'>
-				<div className='row'>
-					<div className='col-sm-12 col-md-6'>
-						<h4>Secretarial Service</h4>
-						<p>
-							Welcome to APEX BUSINESS MANAGMENT GROUP, your trusted partner in
-							financial planning and wealth management. With a passion for
-							helping individuals and businesses achieve their financial goals,
-							we provide expert guidance and personalized Solutions tailored to
-							your unique needs. At APEX BUSINESS MANAGMENT GROUP, we understand
-							that managing your finance scan be complex and over whelming.
-							That's why our team of experienced financial solutions is here to
-							simplify the process, offering you clarity and peace of mind.
-							Whether you're planning for retirement, looking to grow your
-							investments, or seeking strategies for tax optimization, we have
-							the knowledge and expertise to guide you every step of the way.
-						</p>
-					</div>
-					<div className='col-sm-12 col-md-6'>
-						<img
-							src='img/intro/secretarial.jpg'
-							className='img-fluid rounded shadow'
-							alt='Right-hand side image'
-						/>
+			<div>
+				<h1 className='component-heading'>OUR SERVICES</h1>
+				<div className='container my-2 py-4'>
+					<h2 className='heading'>BACK OFFICE SUPPORT & SERVICES</h2>
+					<div className='d-flex justify-content-center align-items-center'>
+						<div className=' col-sm-12 col-md-6'>
+							<p>
+								We providing back office services as it is important and even
+								more so in some cases than the front office. Without a proper
+								functioning foundation, your business cannot work to its full
+								potential
+							</p>
+							<h4>Data Entry & Book Keeping</h4>
+							<p>All kind of data entry related work etc</p>
+							<h4>Document Drafting</h4>
+							<p>Professional paper, statutory document, legal document etc</p>
+							<h4>Digital Marketing</h4>
+							<p>
+								Digital Marketing, social media marketing, SEO, Email marketing
+								etc
+							</p>
+							<h4>Payroll & Miscellaneous</h4>
+							<p>
+								HR payroll preparation, HR paymaster, administrative
+								documentation, etc
+							</p>
+						</div>
+						<div className='col-sm-12 col-md-6'>
+							<img
+								src='img/intro/whoweare.png'
+								className='img-fluid float-start'
+								alt='Right-hand side image'
+							/>
+						</div>
 					</div>
 				</div>
 			</div>
