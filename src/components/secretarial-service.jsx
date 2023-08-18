@@ -51,17 +51,6 @@ const SecretarialService = () => {
 								className='img-fluid float-right'
 								alt='Right-hand side image'
 							/>
-							<svg
-								viewBox='0 0 200 200'
-								xmlns='http://www.w3.org/2000/svg'
-								style={{ position: 'absolute', width: 350 }}
-							>
-								<path
-									fill='#8A3FFC'
-									d='M30.6,-35.2C39.1,-29.2,45.3,-19.1,54,-4.4C62.7,10.4,74.1,29.8,67,35.5C59.9,41.2,34.5,33,16.9,34.1C-0.8,35.2,-10.6,45.6,-16.3,43.9C-22.1,42.2,-23.8,28.5,-32.7,17C-41.6,5.5,-57.7,-3.7,-61.8,-16.2C-65.9,-28.7,-58.1,-44.3,-45.8,-49.6C-33.5,-55,-16.8,-50,-2.9,-46.5C11,-43.1,22,-41.2,30.6,-35.2Z'
-									transform='translate(100 100)'
-								/>
-							</svg>
 						</div>
 					</div>
 				</div>
