@@ -44,7 +44,7 @@ const WhoWeAre = () => {
 						</div>
 						<div className='col-sm-12 col-md-6'>
 							<img
-								src='img/intro/p1.png'
+								src='img/intro/p1.gif'
 								className='img-fluid float-start'
 								alt='Right-hand side image'
 							/>

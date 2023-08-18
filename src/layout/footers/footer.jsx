@@ -55,8 +55,14 @@ const Footer = ({ df }) => {
 													</div>
 													<div className='text'>
 														<span>
-															Add: Mezzanine 1B, Menara PKNS, 17 Jalan Yong
-															Shook Lin, 46050 Petaling Jaya, Selangor, Malaysia
+															Add:
+															<Link
+																to='https://goo.gl/maps/dZgTe1tQkfV4sHFn7'
+																target='_blank'
+															>
+																Mezzanine 1B, Menara PKNS, 17 Jalan Yong Shook
+																Lin, 46050 Petaling Jaya, Selangor, Malaysia
+															</Link>
 														</span>
 													</div>
 												</li>

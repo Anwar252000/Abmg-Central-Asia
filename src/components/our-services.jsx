@@ -43,7 +43,7 @@ const OurServices = () => {
 						</div>
 						<div className='col-sm-12 col-md-6'>
 							<img
-								src='img/intro/p3.png'
+								src='img/intro/p3.gif'
 								className='img-fluid float-start'
 								alt='Right-hand side image'
 							/>

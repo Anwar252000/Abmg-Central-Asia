@@ -21,7 +21,7 @@ const WhatWeDo = () => {
 				</h2>
 				<div className='d-flex flex-column-reverse flex-sm-row justify-content-center align-items-center'>
 					<div className='col-sm-12 col-md-6'>
-						<img src='img/intro/p2.png' className='img-fluid' alt='img' />
+						<img src='img/intro/p2.gif' className='img-fluid' alt='img' />
 					</div>
 					<div className=' col-sm-12 col-md-6'>
 						<p>
