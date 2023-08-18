@@ -10,6 +10,7 @@ const Breadcrumb = ({ img, title, subtitle }) => {
 					background: `url( ${img ? img : 'img/Slider/S2.jpg'})`,
 					backgroundSize: 'cover',
 					backgroundPosition: 'center',
+					opacity: 40,
 				}}
 			>
 				<div className='container'>

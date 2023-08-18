@@ -16,7 +16,6 @@ const Home = () => {
 	return (
 		<>
 			<HeroSlider />
-			<VideoBox />
 			<Introduction />
 			<WhoWeAre />
 			<WhatWeDo />
@@ -25,6 +24,7 @@ const Home = () => {
 			<SecretarialService />
 			<OurTeam />
 			<Clients />
+			<VideoBox />
 			<SubscribeArea />
 		</>
 	);

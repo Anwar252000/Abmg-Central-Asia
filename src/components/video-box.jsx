@@ -3,7 +3,7 @@ import VideoModal from './video-modal';
 const VideoBox = () => {
 	return (
 		<>
-			<h2 className='heading'>OUR MOTIVE</h2>
+			<h2 className='heading2'>OUR MOTIVE</h2>
 			<div
 				className='container-fluid card'
 				style={{
