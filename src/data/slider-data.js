@@ -8,7 +8,7 @@ export const home_slider = [
 	},
 	{
 		id: 2,
-		bgImg: 'img/Slider/S4.jpg',
+		bgImg: 'img/Slider/S1.jpg',
 		title: 'Welcome to ABMG Central Asia',
 		subtitle1: 'Our financial advisors help you to boost your business',
 		subtitle2:
