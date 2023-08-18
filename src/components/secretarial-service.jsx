@@ -47,7 +47,7 @@ const SecretarialService = () => {
 						</div>
 						<div className='col-sm-12 col-md-6'>
 							<img
-								src='img/intro/secretarial.png'
+								src='img/intro/p5.png'
 								className='img-fluid float-right'
 								alt='Right-hand side image'
 							/>
