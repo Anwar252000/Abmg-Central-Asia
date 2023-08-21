@@ -57,7 +57,7 @@ const Footer = ({ df }) => {
 													</div>
 													<div className='text'>
 														<span>
-															Add:
+															Address:{' '}
 															<Link
 																to='https://goo.gl/maps/dZgTe1tQkfV4sHFn7'
 																target='_blank'
@@ -70,10 +70,28 @@ const Footer = ({ df }) => {
 												</li>
 												<li>
 													<div className='icon'>
+														<i className='fal fa-map-marker-alt'></i>
+													</div>
+													<div className='text'>
+														<span>
+															Address:{' '}
+															<Link
+																to='https://goo.gl/maps/eUFNGvRoRg4RnWn7A'
+																target='_blank'
+															>
+																Mateen Shopping Galaxy, Rashid Minhas Rd Service
+																Ln, Block 10-A Block 10 A Gulshan-e-Iqbal,
+																Karachi, Karachi City, Sindh, Pakistan.
+															</Link>
+														</span>
+													</div>
+												</li>
+												<li>
+													<div className='icon'>
 														<i className='fal fa-envelope-open-text'></i>
 													</div>
 													<div className='text'>
-														<span>info@apexbusinessmanagmentgroup.com</span>
+														<span>ABMG.hq@gmail.com</span>
 													</div>
 												</li>
 												<li>
@@ -81,7 +99,7 @@ const Footer = ({ df }) => {
 														<i className='fal fa-phone-alt'></i>
 													</div>
 													<div className='text'>
-														<span>Phone Number: +600000-12345</span>
+														<span>Phone Number: +60 19-274 2860</span>
 													</div>
 												</li>
 											</ul>
