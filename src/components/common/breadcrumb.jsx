@@ -7,7 +7,7 @@ const Breadcrumb = ({ img, title, subtitle }) => {
 			<section
 				className='page__title p-relative d-flex align-items-center'
 				style={{
-					background: `url( ${img ? img : 'img/Slider/S2.jpg'})`,
+					background: `url( ${img ? img : 'img/Slider/S1.jpg'})`,
 					backgroundSize: 'cover',
 					backgroundPosition: 'center',
 					opacity: 40,
