@@ -15,32 +15,30 @@ const WhoWeAre = () => {
 						transform='translate(100 100)'
 					/>
 				</svg>
-				<h1 className='component-heading'>OUR SERVICES</h1>
+				<h1 className='component-heading'>WHO WE ARE</h1>
 				<div className='container my-2 py-4' style={{ position: 'relative' }}>
-					<h2 className='heading'>STATUTORY & COMPLIANCE SERVICES</h2>
+					<h3 className='heading'>We do things better</h3>
 					<div className='d-flex flex-column-reverse flex-sm-row justify-content-center align-items-center'>
-						<div className=' col-sm-12 col-md-6'>
+						<div className=' col-sm-12 col-md-6 py-3'>
 							<p>
-								We provide full range comprehensive statutory services to our
-								client as part of their compliance with the authorities and
-								government agencies.
+								<b>PAK PREMIER HOSPITALITY SDN BHD </b> proudly introduce our
+								Collaboration with ULTIMATE FINANCAIL SOLUTIONS. Here we provide
+								to our prestigious customer for best Financial and Accounting
+								service.
 							</p>
-							<h4>Company Secretary</h4>
 							<p>
-								Incorporation of company (local/foreign), co. secretary
-								retainer, AGM/EGM, etc
+								We are a BPO firm dealing with many clients based in USA we are
+								already working with a CPA firm and as a growing business
+								looking for another collaboration for bookkeeping for your
+								clients.
 							</p>
-							<h4>Accounting</h4>
 							<p>
-								Annual/Monthly accounting, review, book keeping, advisory, etc
+								We serve sole trader businesses, close corporation sand limited
+								companies. Our dedicated staff members will meet your needs and
+								provide professional service regardless of the size of your
+								business. Wear aware that all businesses are different and each
+								has distinct financial budgets.
 							</p>
-							<h4>Taxation</h4>
-							<p>
-								Business/personal annual taxation, SST/GST, tax planning, tax
-								audit, etc
-							</p>
-							<h4>Audit advisory</h4>
-							<p>Internal audit, pre-audit advisory, etc</p>
 						</div>
 						<div className='col-sm-12 col-md-6'>
 							<img

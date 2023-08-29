@@ -24,7 +24,7 @@ const Home = () => {
 			<SecretarialService />
 			<OurTeam />
 			<Clients />
-			<VideoBox />
+			{/* <VideoBox /> */}
 			<SubscribeArea />
 		</>
 	);

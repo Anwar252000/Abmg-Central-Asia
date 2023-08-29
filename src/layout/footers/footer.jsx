@@ -40,7 +40,7 @@ const Footer = ({ df }) => {
 										<Link to='/'>
 											<a>
 												<img
-													src='img/logo/logo2.png'
+													src='img/logo/logo.png'
 													alt='logo'
 													className='w-25'
 												/>
@@ -48,7 +48,7 @@ const Footer = ({ df }) => {
 										</Link>
 									</div>
 									<div className='footer__widget-content'>
-										<p>ABMG Central Asia.</p>
+										<p>Ultimate Financial Solutions</p>
 										<div className='footer__contact'>
 											<ul>
 												<li>
@@ -59,29 +59,11 @@ const Footer = ({ df }) => {
 														<span>
 															Address:{' '}
 															<Link
-																to='https://goo.gl/maps/dZgTe1tQkfV4sHFn7'
+																to='https://goo.gl/maps/cQgnqDt3GjPM6uYb6'
 																target='_blank'
 															>
-																Mezzanine 1B, Menara PKNS, 17 Jalan Yong Shook
-																Lin, 46050 Petaling Jaya, Selangor, Malaysia
-															</Link>
-														</span>
-													</div>
-												</li>
-												<li>
-													<div className='icon'>
-														<i className='fal fa-map-marker-alt'></i>
-													</div>
-													<div className='text'>
-														<span>
-															Address:{' '}
-															<Link
-																to='https://goo.gl/maps/eUFNGvRoRg4RnWn7A'
-																target='_blank'
-															>
-																Mateen Shopping Galaxy, Rashid Minhas Rd Service
-																Ln, Block 10-A Block 10 A Gulshan-e-Iqbal,
-																Karachi, Karachi City, Sindh, Pakistan.
+																Office # 2, 13 A (First Floor) JalanKenari9,
+																Bandar Pochong Jaya 47100 Selangor, Malaysia
 															</Link>
 														</span>
 													</div>
@@ -91,7 +73,15 @@ const Footer = ({ df }) => {
 														<i className='fal fa-envelope-open-text'></i>
 													</div>
 													<div className='text'>
-														<span>ABMG.hq@gmail.com</span>
+														<span>pakpremierhos@gmail.com</span>
+													</div>
+												</li>
+												<li>
+													<div className='icon'>
+														<i className='fal fa-envelope-open-text'></i>
+													</div>
+													<div className='text'>
+														<span>info@ultimatefinancialsolutions.com</span>
 													</div>
 												</li>
 												<li>
@@ -99,7 +89,7 @@ const Footer = ({ df }) => {
 														<i className='fal fa-phone-alt'></i>
 													</div>
 													<div className='text'>
-														<span>Phone Number: +60 19-274 2860</span>
+														<span>Phone Number: +6019274-2860</span>
 													</div>
 												</li>
 											</ul>
@@ -129,7 +119,7 @@ const Footer = ({ df }) => {
 										©{' 2023 '}
 										All rights reserved
 										<Link to='/'>
-											<a> ABMG Central Asia</a>
+											<a> Ultimate Financial Solutions</a>
 										</Link>
 									</p>
 								</div>

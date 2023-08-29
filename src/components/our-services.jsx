@@ -19,27 +19,33 @@ const OurServices = () => {
 					/>
 				</svg>
 				<div className='container my-2 py-4' style={{ position: 'relative' }}>
-					<h2 className='heading'>TAILORED SERVICES</h2>
+					<h2 className='heading'>We do things better</h2>
 					<div className='d-flex flex-column-reverse flex-sm-row justify-content-center align-items-center'>
-						<div className=' col-sm-12 col-md-6'>
+						<div className=' col-sm-12 col-md-6 my-2'>
+							<h3 className='border-bottom border-dark'>
+								We Also offer the following services
+							</h3>
+							<h6>
+								Our affiliation to the Association of Chartered Certified
+								Accountants (ACCA) keep us on the leading edge of professional
+								accountancy as we benefit from the continuous professional
+								developments and regular updates to the regulatory framework.
+							</h6>
+							<p>Business process improvement</p>
+							<p>Governance and ethics, Mergers and Acquisition</p>
 							<p>
-								We provide full range comprehensive statutory services to our
-								client as part of their compliance with the authorities and
-								government agencies.
+								Change management, Risk management, Project and program
+								management
 							</p>
-							<h4>Corporate Structure</h4>
-							<p>
-								Corporate planning, shareholder agreement, investor plan, etc
-							</p>
-							<h4>IT & Digitalization</h4>
-							<p>ERP adaptation, HRM, CRM, VMS, accounting software, etc</p>
-							<h4>Business Plan & IPO</h4>
-							<p>Business plan, company valuation, IPO advisory, etc</p>
-							<h4>Investment Portfolio</h4>
-							<p>
-								Investment portfolio, investor pool recommendation, wealth
-								planning, etc
-							</p>
+							<p>Skills Reviews, Staff Training and Mentoring</p>
+							<p>Out Sourced CFO Service (Audit Preparation)</p>
+							<p>Performance Improvements and Cost Reduction</p>
+							<p>Business case development and resource mobilization</p>
+							<p>Internal audit and forensic investigations</p>
+							<p>Internal control reviews, Strategic procurement review</p>
+							<p>System requirements and system selections</p>
+							<p>Data analytics and systems management</p>
+							<p>It strategy & due diligence</p>
 						</div>
 						<div className='col-sm-12 col-md-6'>
 							<img

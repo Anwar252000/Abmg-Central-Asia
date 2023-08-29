@@ -46,12 +46,16 @@ function HeroSlider({ home_six }) {
 													<p className='text-dark text-shadow'>
 														{slider.subtitle1}
 														<br />
-														{slider.subtitle2}
+														<b>{slider.subtitle2}</b>
 													</p>
 													<div className='hero-slider-btn'>
-														<Link to='/contact'>
-															<a className='os-btn os-btn-2'>Get Now</a>
-														</Link>
+														<a
+															href='UFS_profile.pdf'
+															download='UFS_profile.pdf'
+															className='os-btn os-btn-2'
+														>
+															Download Profile
+														</a>
 													</div>
 												</div>
 											</div>

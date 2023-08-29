@@ -5,19 +5,22 @@ const Introduction = () => {
 		<>
 			<div className='container my-5'>
 				<div className='row justify-content-center align-items-center'>
-					<div className='col-md-4 px-2 mb-4'>
+					<div className='col-md-7 px-4 mb-4'>
 						<div className='section__title-wrapper text-center card'>
-							<i className='fa fa-eye pt-3' style={{ fontSize: 40 }}></i>
+							<i className='fa fa-handshake pt-3' style={{ fontSize: 40 }}></i>
 							<div className='section__title my-3'>
-								<h2>VISION</h2>
+								<h2>INTRODUCTION</h2>
 							</div>
 							<p>
-								VISION To empower our clients and build a better business
-								environment with infinite possibilities
+								Ultimate Financial solutions founded in Malaysia and it has
+								different branches in USA & AUS by qualified and experienced
+								Accountants. Ultimate assists companies for their financial
+								needs like Bookkeeping to Financial Forecasting and CFO
+								services.
 							</p>
 						</div>
 					</div>
-					<div className='col-md-4 px-2 mb-4'>
+					<div className='col-md-5 px-2 mb-4'>
 						<div className='section__title-wrapper text-center card'>
 							<i
 								className='fas fa-bullseye-pointer pt-3'
@@ -27,22 +30,41 @@ const Introduction = () => {
 								<h2>MISSION</h2>
 							</div>
 							<p>
-								To be renown and recognized in business consultancy for Malaysia
-								and Global market.
-								<br /> To provide best service satisfaction to clients with
-								professional ethic.
-								<br /> To be the best working partner for our clients in their
-								business journey.
+								To be the leading accountants and business advisers, with a
+								reputation of quality services when dealing with our valued
+								clients. Adhering strictly to applicable financial reporting
+								standards and best practice.
 							</p>
 						</div>
 					</div>
-					<div className='col-md-4 px-2 mb-4'>
+					<div className='col-md-4 px-4 mb-4'>
 						<div className='section__title-wrapper text-center card'>
-							<i class='fas fa-bullhorn pt-3' style={{ fontSize: 40 }}></i>
+							<i class='fa fa-thumbs-up pt-3' style={{ fontSize: 40 }}></i>
 							<div className='section__title my-3'>
-								<h2>MOTTO</h2>
+								<h2>VALUE</h2>
 							</div>
-							<p>SUSTAIN, GROW, CAPITALIZE</p>
+							<p>
+								Our values are inspired by International Federation of
+								Accountancy (IFAC) Code of Conduct and Association of Chartered
+								Certified Accountants(ACCA).
+							</p>
+						</div>
+					</div>
+					<div className='col-md-8 px-6 mb-4'>
+						<div className='section__title-wrapper text-center card'>
+							<i class='fa fa-eye pt-3' style={{ fontSize: 40 }}></i>
+							<div className='section__title my-3'>
+								<h2>VISION</h2>
+							</div>
+							<p>
+								We aim to be the practice of choice in Accounting, Taxation and
+								Secretarial Services in the growing Malaysian market. To achieve
+								this, we aim to champion the needs of the market in the
+								application of consistent international financial reporting
+								standards, promoting the value of sustainable business, which we
+								believe best supports local business and meet the local
+								regulation standards.
+							</p>
 						</div>
 					</div>
 				</div>
