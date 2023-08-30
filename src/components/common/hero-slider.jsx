@@ -52,7 +52,7 @@ function HeroSlider({ home_six }) {
 														<a
 															href='UFS_profile.pdf'
 															download='UFS_profile.pdf'
-															className='os-btn os-btn-2'
+															className='os-btn os-btn-slider'
 														>
 															Download Profile
 														</a>
