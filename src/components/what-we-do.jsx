@@ -45,7 +45,7 @@ const WhatWeDo = () => {
 						<p>Budgets and Financial Forecasting</p>
 						<p>Bank and Credit Card Reconciliation</p>
 						<p>Reconciling Line of Credit.</p>
-						<svg
+						{/* <svg
 							viewBox='0 0 200 200'
 							xmlns='http://www.w3.org/2000/svg'
 							style={{ position: 'absolute', width: 100 }}
@@ -55,7 +55,7 @@ const WhatWeDo = () => {
 								d='M42.9,-56.3C57.6,-48.5,72.8,-38.5,76.5,-25.3C80.2,-12.1,72.4,4.5,64.8,19C57.3,33.6,50,46.2,39.2,53.3C28.5,60.4,14.2,62.1,-1.5,64.1C-17.1,66.2,-34.3,68.5,-47.6,62.1C-60.9,55.8,-70.3,40.9,-71.8,25.8C-73.2,10.8,-66.6,-4.3,-62.2,-21C-57.8,-37.6,-55.7,-55.7,-45.8,-65.1C-35.8,-74.4,-17.9,-75,-1.9,-72.5C14.1,-69.9,28.3,-64.1,42.9,-56.3Z'
 								transform='translate(100 100)'
 							/>
-						</svg>
+						</svg> */}
 					</div>
 				</div>
 			</div>

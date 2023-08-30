@@ -21,10 +21,8 @@ const WhoWeAre = () => {
 					<div className='d-flex flex-column-reverse flex-sm-row justify-content-center align-items-center'>
 						<div className=' col-sm-12 col-md-6 py-3'>
 							<p>
-								<b>PAK PREMIER HOSPITALITY SDN BHD </b> proudly introduce our
-								Collaboration with ULTIMATE FINANCAIL SOLUTIONS. Here we provide
-								to our prestigious customer for best Financial and Accounting
-								service.
+								<b>Ultimate Financial Solutions</b> provide to our prestigious
+								customer for best Financial and Accounting service.
 							</p>
 							<p>
 								We are a BPO firm dealing with many clients based in USA we are
