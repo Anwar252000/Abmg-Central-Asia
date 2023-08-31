@@ -11,6 +11,7 @@ import WhatWeDo from '../components/what-we-do';
 import OurServices from '../components/our-services';
 import Experience from '../components/experience';
 import SecretarialService from '../components/secretarial-service';
+import BackToTopButton from '../components/back-to-top-button';
 
 const Home = () => {
 	return (
@@ -25,6 +26,7 @@ const Home = () => {
 			<OurTeam />
 			<Clients />
 			{/* <VideoBox /> */}
+			<BackToTopButton />
 			<SubscribeArea />
 		</>
 	);

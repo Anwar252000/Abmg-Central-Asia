@@ -19,6 +19,33 @@ body {
 	overflow-x: hidden;
 }
 
+.back-to-top-button {
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+	opacity: 0;
+	transition: opacity 0.3s, visibility 0.3s;
+	visibility: hidden;
+  }
+  
+  .back-to-top-button.visible {
+	opacity: 1;
+	visibility: visible;
+  }
+  
+  .back-to-top-button button {
+	padding: 10px 20px;
+	background-color: rgb(68, 61, 61);
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }  
+
+  .back-to-top-button :hover{
+	background-color: #9f9494;
+  }
+
 .component-heading{
 	background-color: rgb(59, 19, 96);
 	padding: 30px 0;
