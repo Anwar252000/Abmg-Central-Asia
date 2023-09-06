@@ -4,7 +4,7 @@ const teams = [
 		img: '/img/team/p1.jpg',
 		name: 'SYED UMAIR ANWAR',
 		info: 'Managing Partner & CEO Ultimate Financial Solutions',
-		ass: ' Fellow Member of Association of Chartered Certified Accountants',
+		ass: 'Fellow Member of Association of Chartered Certified Accountants',
 		exp: '14 Years of Experience',
 		num: ' +92-302-8232080',
 	},

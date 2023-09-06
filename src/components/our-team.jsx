@@ -24,7 +24,7 @@ const OurTeam = () => {
 										<p>{item.ass}</p>
 										<p className='px-4'>{item.exp}</p>
 										<p>
-											<i className='fal fa-phone-alt'>{item.num}</i>
+											<i className='fal fa-phone-alt '>{item.num}</i>
 										</p>
 									</div>
 								</div>

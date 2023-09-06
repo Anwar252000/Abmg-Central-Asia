@@ -23,7 +23,7 @@ const SubscribeArea = ({ df, h4 }) => {
 									<p>
 										Subscribe to the Ultimate Financial Solutions mailing list
 										to receive updates on new arrivals, special offers and other
-										discount information.
+										discount information
 									</p>
 									<div className='subscribe__form'>
 										<form onSubmit={handleSubmit}>

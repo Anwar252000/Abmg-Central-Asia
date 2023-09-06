@@ -62,7 +62,7 @@ const Footer = ({ df }) => {
 															// to='https://goo.gl/maps/cQgnqDt3GjPM6uYb6'
 															// target='_blank'
 															>
-																85/6, 16th Street, Block 2 PECHS. Karachi
+																85/6, 16th Street, Block 2 PECHS. Karachi
 															</Link>
 														</span>
 													</div>

@@ -14,7 +14,7 @@ const Header = () => {
 					/>
 				</Link>
 				<button
-					className='navbar-toggler mx-2'
+					className='navbar-toggler mx-1'
 					type='button'
 					data-toggle='collapse'
 					data-target='#navbarNav'
