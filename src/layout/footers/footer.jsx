@@ -59,23 +59,22 @@ const Footer = ({ df }) => {
 														<span>
 															Address:{' '}
 															<Link
-																to='https://goo.gl/maps/cQgnqDt3GjPM6uYb6'
-																target='_blank'
+															// to='https://goo.gl/maps/cQgnqDt3GjPM6uYb6'
+															// target='_blank'
 															>
-																Office # 2, 13 A (First Floor) JalanKenari9,
-																Bandar Pochong Jaya 47100 Selangor, Malaysia
+																85/6, 16th Street, Block 2 PECHS. Karachi
 															</Link>
 														</span>
 													</div>
 												</li>
-												<li>
+												{/* <li>
 													<div className='icon'>
 														<i className='fal fa-envelope-open-text'></i>
 													</div>
 													<div className='text'>
 														<span>pakpremierhos@gmail.com</span>
 													</div>
-												</li>
+												</li> */}
 												<li>
 													<div className='icon'>
 														<i className='fal fa-envelope-open-text'></i>

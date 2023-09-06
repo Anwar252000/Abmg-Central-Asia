@@ -21,8 +21,8 @@ const SubscribeArea = ({ df, h4 }) => {
 								<div className='subscribe__content text-center'>
 									<h2>Get Discount Info</h2>
 									<p>
-										Subscribe to the Ultimate Financial Advisor mailing list to
-										receive updates on new arrivals, special offers and other
+										Subscribe to the Ultimate Financial Solutions mailing list
+										to receive updates on new arrivals, special offers and other
 										discount information.
 									</p>
 									<div className='subscribe__form'>

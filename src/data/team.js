@@ -6,6 +6,7 @@ const teams = [
 		info: 'Managing Partner & CEO Ultimate Financial Solutions',
 		ass: ' Fellow Member of Association of Chartered Certified Accountants',
 		exp: '14 Years of Experience',
+		num: ' +92-302-8232080',
 	},
 	{
 		id: 2,
@@ -14,6 +15,7 @@ const teams = [
 		info: 'Managing Partner & CEO Ultimate Financial Solutions',
 		ass: 'MBA Australia, MPA Australia, Associate member of CPA Australia',
 		exp: '10 Years of Experience',
+		num: ' +92-335-2084477',
 	},
 ];
 
