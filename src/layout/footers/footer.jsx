@@ -62,7 +62,8 @@ const Footer = ({ df }) => {
 															// to='https://goo.gl/maps/cQgnqDt3GjPM6uYb6'
 															// target='_blank'
 															>
-																85/6, 16th Street, Block 2 PECHS. Karachi
+																Office: 85/6, 16th Street, Block 2 PECHS.
+																Karachi
 															</Link>
 														</span>
 													</div>
@@ -88,7 +89,15 @@ const Footer = ({ df }) => {
 														<i className='fal fa-phone-alt'></i>
 													</div>
 													<div className='text'>
-														<span>Phone Number: +6019274-2860</span>
+														<span>Phone Number: +92-302-8232080</span>
+													</div>
+												</li>
+												<li>
+													<div className='icon'>
+														<i className='fal fa-phone-alt'></i>
+													</div>
+													<div className='text'>
+														<span>Phone Number: +92-335-2084477</span>
 													</div>
 												</li>
 											</ul>

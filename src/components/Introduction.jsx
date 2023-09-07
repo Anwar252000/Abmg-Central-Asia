@@ -12,9 +12,10 @@ const Introduction = () => {
 								<h2>INTRODUCTION</h2>
 							</div>
 							<p className='px-1'>
-								Ultimate Financial Solutions offers expert accounting. With
-								branches in USA & AUS, skilled Accountants provide Bookkeeping,
-								Forecasting, and CFO services to companies worldwide.
+								Ultimate Financial Solutions offers expert accounting with
+								branches in the USA AUSTRALIA & MALAYSIA, skilled Accountants
+								provide Bookkeeping, Forecasting, and CFO services to
+								companies worldwide.
 							</p>
 						</div>
 					</div>
@@ -43,7 +44,7 @@ const Introduction = () => {
 							</div>
 							<p className='px-1'>
 								We strive to lead in Accounting, Taxation, and Secretarial
-								Services in Malaysia. Advocating global financial standards,
+								Services from Pakistan. Advocating global financial standards,
 								promoting sustainability, and adhering to local regulations for
 								optimal local business support.
 							</p>

@@ -7,8 +7,8 @@ import { home_slider } from '../../data/slider-data';
 function HeroSlider({ home_six }) {
 	// slick setting
 	const settings = {
-		autoplay: false,
-		autoplaySpeed: 10000,
+		autoplay: true,
+		autoplaySpeed: 3000,
 		dots: true,
 		fade: false,
 		arrows: false,

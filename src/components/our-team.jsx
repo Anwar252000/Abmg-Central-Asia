@@ -23,9 +23,6 @@ const OurTeam = () => {
 										<p className='card-text'>{item.info}</p>
 										<p>{item.ass}</p>
 										<p className='px-4'>{item.exp}</p>
-										<p>
-											<i className='fal fa-phone-alt '>{item.num}</i>
-										</p>
 									</div>
 								</div>
 							);
