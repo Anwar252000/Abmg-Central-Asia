@@ -14,7 +14,11 @@ const Cleints = () => {
 						<div className='card shadow p-5 m-3 bg-green'>
 							<div key={item.id}>
 								<Link to={item.link} target='_blank'>
-									{/* <img src={item.img} alt='client' /> */}
+									<img
+										src={item.img}
+										alt='img'
+										style={{ width: 130, marginBottom: 10, float: 'right' }}
+									/>
 									<h4>{item.title}</h4>
 								</Link>
 								<p>

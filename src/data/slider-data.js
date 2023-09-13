@@ -10,14 +10,14 @@ export const home_slider = [
 		id: 2,
 		bgImg: 'img/Slider/S1.jpg',
 		title: 'Ultimate Financial Solutions',
-		subtitle1: 'Business move fast and deadlines are short',
+		subtitle1: 'The leading financial service providers',
 		subtitle2: 'Never miss a beat',
 	},
 	{
 		id: 3,
 		bgImg: 'img/Slider/S3.jpg',
 		title: 'Ultimate Financial Solutions',
-		subtitle1: 'Business move fast and deadlines are short',
+		subtitle1: 'The firm which help in achieving all your financial needs',
 		subtitle2: 'Never miss a beat',
 	},
 ];

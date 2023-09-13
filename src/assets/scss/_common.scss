@@ -9,7 +9,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-body {
+html, body {
 	font-family: $pop;
 	font-size: 14px;
 	font-weight: normal;
@@ -18,7 +18,9 @@ body {
 	line-height: 24px;
 	overflow-x: hidden;
 }
-
+i{
+	color: $black-soft-2;
+}
 .back-to-top-button {
 	position: fixed;
 	bottom: 30px;

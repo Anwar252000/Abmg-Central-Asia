@@ -12,10 +12,10 @@ const Introduction = () => {
 								<h2>INTRODUCTION</h2>
 							</div>
 							<p className='px-1'>
-								Ultimate Financial Solutions offers expert accounting with
-								branches in the USA AUSTRALIA & MALAYSIA, skilled Accountants
-								provide Bookkeeping, Forecasting, and CFO services to
-								companies worldwide.
+								Ultimate financial solution offers expert accounting and
+								financial services. We have branches based in USA, AUS &
+								Malaysia. Our Skilled Accountants provide Bookkeeping, Financial
+								modelling & forecasting, CFO services to companies worldwide.
 							</p>
 						</div>
 					</div>

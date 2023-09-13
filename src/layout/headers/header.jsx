@@ -5,12 +5,13 @@ import { Link } from 'react-router-dom';
 const Header = () => {
 	return (
 		<>
-			<nav className='navbar navbar-expand-lg navbar-light bg-light text-center'>
+			<nav className='navbar navbar-expand-lg navbar-light bg-light text-center sticky'>
 				<Link className='navbar-brand' to='/'>
 					<img
 						src='img/logo/logo.png'
 						alt='Ultimate Financial Solutions'
-						className='w-25 mx-4'
+						className='mx-3'
+						style={{ width: 140 }}
 					/>
 				</Link>
 				<button

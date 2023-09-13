@@ -29,7 +29,7 @@ function BackToTopButton() {
 	return (
 		<div className={`back-to-top-button ${isVisible ? 'visible' : ''}`}>
 			<button onClick={scrollToTop}>
-				<i className='fas fa-angle-double-up'></i>
+				<i className='fas fa-angle-double-up text-light'></i>
 			</button>
 		</div>
 	);

@@ -16,9 +16,9 @@ const WhatWeDo = () => {
 				/>
 			</svg> */}
 			<div className='container my-2 py-4'>
-				<h3 className='heading' style={{ position: 'relative' }}>
+				{/* <h3 className='heading' style={{ position: 'relative' }}>
 					We do things better
-				</h3>
+				</h3> */}
 				<div
 					className='d-flex flex-column-reverse flex-sm-row justify-content-center align-items-center'
 					style={{ position: 'relative' }}
@@ -28,23 +28,42 @@ const WhatWeDo = () => {
 					</div>
 					<div className=' col-sm-12 col-md-6 my-2'>
 						<p>
-							We have a team with diverse qualifications like CPA, ACCA & CA.
+							<i class='fa fa-check'></i> We have a team with diverse
+							qualifications like CPA, ACCA & CA.
 						</p>
 						<p>
-							Creating CSV's, translation of Data for accurate bookkeeping
-							(QuickBooks Online)
+							<i class='fa fa-check'></i> Creating CSV's, translation of Data
+							for accurate bookkeeping (QuickBooks Online)
 						</p>
 						<p>
-							Landlord statements reconciliation like App folio, Cooper, Newrez
-							(Shellpoint)
+							<i class='fa fa-check'></i> Landlord statements reconciliation
+							like App folio, Cooper, Newrez (Shellpoint)
 						</p>
-						<p>QuickBooks Online, XERO & ZOHO Cleanup Bookkeeping</p>
-						<p>Migration of Data from QB Desktop to QB Online</p>
-						<p>Financial Statement Preparation and Analysis</p>
-						<p>Bookkeeping including Invoicing and Collections</p>
-						<p>Budgets and Financial Forecasting</p>
-						<p>Bank and Credit Card Reconciliation</p>
-						<p>Reconciling Line of Credit.</p>
+						<p>
+							<i class='fa fa-check'></i> QuickBooks Online, XERO & ZOHO Cleanup
+							Bookkeeping
+						</p>
+						<p>
+							<i class='fa fa-check'></i> Migration of Data from QB Desktop to
+							QB Online
+						</p>
+						<p>
+							<i class='fa fa-check'></i> Financial Statement Preparation and
+							Analysis
+						</p>
+						<p>
+							<i class='fa fa-check'></i> Bookkeeping including Invoicing and
+							Collections
+						</p>
+						<p>
+							<i class='fa fa-check'></i> Budgets and Financial Forecasting
+						</p>
+						<p>
+							<i class='fa fa-check'></i> Bank and Credit Card Reconciliation
+						</p>
+						<p>
+							<i class='fa fa-check'></i> Reconciling Line of Credit.
+						</p>
 						{/* <svg
 							viewBox='0 0 200 200'
 							xmlns='http://www.w3.org/2000/svg'

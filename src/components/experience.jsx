@@ -23,39 +23,46 @@ const Experience = () => {
 					</div>
 					<div className=' col-sm-12 col-md-6' style={{ position: 'relative' }}>
 						<p>
-							We have a team with diverse qualifications like CPA, ACCA
-							Responsible for payroll Gusto, Paychex etc.
+							<i class='fa fa-check'></i> We have a team with diverse
+							qualifications like CPA, ACCA Responsible for payroll Gusto,
+							Paychex etc.
 						</p>
 						<p>
-							Expert at designing accounting functions, systems, and best
-							practices.
+							<i class='fa fa-check'></i> Expert at designing accounting
+							functions, systems, and best practices.
 						</p>
 						<p>
-							Responsible for reviewing & compiling client’s financial
-							statements from E-commerce, Health, Automobile.
+							<i class='fa fa-check'></i> Responsible for reviewing & compiling
+							client’s financial statements from E-commerce, Health, Automobile.
 						</p>
 						<p>
-							Responsible for reviewing & compiling client’s Construction,
-							Manufacturing & entertainment industries.
+							<i class='fa fa-check'></i> Responsible for reviewing & compiling
+							client’s Construction, Manufacturing & entertainment industries.
 						</p>
 						<p>
-							Expertise in remote work with minimal supervision, ensured client
-							information confidentiality.
+							<i class='fa fa-check'></i> Expertise in remote work with minimal
+							supervision, ensured client information confidentiality.
 						</p>
 						<p>
-							Maintained positive relationships with prompt response to calls
-							and emails
+							<i class='fa fa-check'></i> Maintained positive relationships with
+							prompt response to calls and emails
 						</p>
 						<p>
-							Experience using online tools like Slack, Asana, Hub staff, One
-							Drive, Google Drive, and Zoom.
+							<i class='fa fa-check'></i> Experience using online tools like
+							Slack, Asana, Hub staff, One Drive, Google Drive, and Zoom.
 						</p>
-						<p>Bookkeeping, accounting, and payroll services.</p>
 						<p>
-							Expert in Costing, Budgeting, Forecasting, Financial Modeling,
-							Valuations, and much more finance-related workings.
+							<i class='fa fa-check'></i> Bookkeeping, accounting, and payroll
+							services.
 						</p>
-						<p>ABN registration</p>
+						<p>
+							<i class='fa fa-check'></i> Expert in Costing, Budgeting,
+							Forecasting, Financial Modeling, Valuations, and much more
+							finance-related workings.
+						</p>
+						<p>
+							<i class='fa fa-check'></i> ABN registration
+						</p>
 					</div>
 				</div>
 			</div>

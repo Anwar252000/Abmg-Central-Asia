@@ -1,7 +1,7 @@
 const clients = [
 	{
 		id: 1,
-		img: 'img/client/c2.png',
+		img: 'img/client/c1.png',
 		title: 'Cetrix Technologies',
 		annualTurnover: '16 million',
 		industry: 'Personal Protective Equipment’s',
@@ -11,7 +11,7 @@ const clients = [
 	},
 	{
 		id: 2,
-		img: 'img/client/c1.png',
+		img: 'img/client/c2.png',
 		title: 'Vizocom',
 		annualTurnover: '25 million',
 		industry: 'Personal Protective Equipment’s for US Government Departments',
@@ -21,7 +21,7 @@ const clients = [
 	},
 	{
 		id: 3,
-		img: 'img/client/c4.png',
+		img: 'img/client/c6.png',
 		title: 'Happy Trail',
 		annualTurnover: '8 million',
 		industry: 'Medicated Hemp products',
@@ -30,7 +30,7 @@ const clients = [
 	},
 	{
 		id: 4,
-		img: 'img/client/c5.png',
+		img: 'img/client/c4.png',
 		title: 'Techfin CPA Firm',
 		annualTurnover: '20 million',
 		industry: 'TECHFIN CPA FIRM',
@@ -40,7 +40,7 @@ const clients = [
 	},
 	{
 		id: 5,
-		img: 'img/client/c3.png',
+		img: 'img/client/c5.png',
 		title: 'CETDIGIT Cloud Services',
 		annualTurnover: '12 million',
 		industry: 'Cloud Digital services',
@@ -60,7 +60,7 @@ const clients = [
 	},
 	{
 		id: 7,
-		img: 'img/client/c1.png',
+		img: 'img/client/c7.png',
 		title: 'Florida Eagle Investment Homes',
 		annualTurnover: '50 Million',
 		industry: 'Real Estate property management',
@@ -70,7 +70,7 @@ const clients = [
 	},
 	{
 		id: 8,
-		img: 'img/client/c3.png',
+		img: 'img/client/c8.png',
 		title: 'Schlabach Engine',
 		annualTurnover: '9.5 Million',
 		industry: 'Hardware equipment for daily use',

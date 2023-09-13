@@ -7,7 +7,7 @@ const WhoWeAre = () => {
 				<svg
 					viewBox='0 0 200 200'
 					xmlns='http://www.w3.org/2000/svg'
-					style={{ position: 'absolute', width: 400 }}
+					style={{ position: 'absolute', width: 300 }}
 				>
 					<path
 						fill='#8A3FFC'
@@ -15,20 +15,23 @@ const WhoWeAre = () => {
 						transform='translate(100 100)'
 					/>
 				</svg>
-				<h1 className='component-heading'>WHO WE ARE</h1>
+				<h1 className='component-heading' style={{ position: 'relative' }}>
+					WHO WE ARE
+				</h1>
 				<div className='container my-2 py-4' style={{ position: 'relative' }}>
-					<h3 className='heading'>We do things better</h3>
+					{/* <h3 className='heading'>We do things better</h3> */}
 					<div className='d-flex flex-column-reverse flex-sm-row justify-content-center align-items-center'>
 						<div className=' col-sm-12 col-md-6 py-3'>
 							<p>
 								<b>Ultimate Financial Solutions</b> provide to our prestigious
 								customer for best Financial and Accounting service.
 							</p>
+
 							<p>
-								We are a BPO firm dealing with many clients based in USA we are
-								already working with a CPA firm and as a growing business
-								looking for another collaboration for bookkeeping for your
-								clients.
+								We are a BPO firm dealing with many Clients based in USA,
+								Australia, Canada & Malaysia we are already working with a CPA
+								firm and as a growing business looking for another collaboration
+								for bookkeeping for your clients.
 							</p>
 							<p>
 								We serve sole trader businesses, close corporation sand limited

@@ -19,33 +19,64 @@ const OurServices = () => {
 					/>
 				</svg> */}
 				<div className='container my-2 py-4' style={{ position: 'relative' }}>
-					<h2 className='heading'>We do things better</h2>
+					{/* <h2 className='heading'>We do things better</h2> */}
 					<div className='d-flex flex-column-reverse flex-sm-row justify-content-center align-items-center'>
 						<div className=' col-sm-12 col-md-6 my-2'>
 							<h3 className='border-bottom border-dark'>
 								We Also offer the following services
 							</h3>
-							<h6>
+							<p>
 								Our affiliation to the Association of Chartered Certified
 								Accountants (ACCA) keep us on the leading edge of professional
 								accountancy as we benefit from the continuous professional
 								developments and regular updates to the regulatory framework.
-							</h6>
-							<p>Business process improvement</p>
-							<p>Governance and ethics, Mergers and Acquisition</p>
+							</p>
 							<p>
-								Change management, Risk management, Project and program
+								<i class='fa fa-check'></i> Business process improvement
+							</p>
+							<p>
+								<i class='fa fa-check'></i> Governance and ethics, Mergers and
+								Acquisition
+							</p>
+							<p>
+								<i class='fa fa-check'></i> Change management, Risk management,
+								Project and program management
+							</p>
+							<p>
+								<i class='fa fa-check'></i> Skills Reviews, Staff Training and
+								Mentoring
+							</p>
+							<p>
+								<i class='fa fa-check'></i> Out Sourced CFO Service (Audit
+								Preparation)
+							</p>
+							<p>
+								<i class='fa fa-check'></i> Performance Improvements and Cost
+								Reduction
+							</p>
+							<p>
+								<i class='fa fa-check'></i> Business case development and
+								resource mobilization
+							</p>
+							<p>
+								<i class='fa fa-check'></i> Internal audit and forensic
+								investigations
+							</p>
+							<p>
+								<i class='fa fa-check'></i> Internal control reviews, Strategic
+								procurement review
+							</p>
+							<p>
+								<i class='fa fa-check'></i> System requirements and system
+								selections
+							</p>
+							<p>
+								<i class='fa fa-check'></i> Data analytics and systems
 								management
 							</p>
-							<p>Skills Reviews, Staff Training and Mentoring</p>
-							<p>Out Sourced CFO Service (Audit Preparation)</p>
-							<p>Performance Improvements and Cost Reduction</p>
-							<p>Business case development and resource mobilization</p>
-							<p>Internal audit and forensic investigations</p>
-							<p>Internal control reviews, Strategic procurement review</p>
-							<p>System requirements and system selections</p>
-							<p>Data analytics and systems management</p>
-							<p>It strategy & due diligence</p>
+							<p>
+								<i class='fa fa-check'></i> It strategy & due diligence
+							</p>
 						</div>
 						<div className='col-sm-12 col-md-6'>
 							<img
