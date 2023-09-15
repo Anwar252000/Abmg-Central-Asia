@@ -1,5 +1,6 @@
 import emailjs from 'emailjs-com';
 import React, { useRef } from 'react';
+import { toast, ToastContainer } from 'react-toastify';
 
 const ContactForm = () => {
 	const form = useRef();
@@ -19,6 +20,7 @@ const ContactForm = () => {
 			'v6gklHzdqIJxPNKkS',
 			data
 		);
+		form.current.reset();
 	};
 
 	return (
