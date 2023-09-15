@@ -1,10 +1,10 @@
 import * as Yup from 'yup';
 
-export const contactSchema = Yup.object().shape({
-	name: Yup.string().required().label('Name'),
-	email: Yup.string().required().email().label('Email'),
-	msg: Yup.string().required().min(20).label('Message'),
-});
+// export const contactSchema = Yup.object().shape({
+// 	name: Yup.string().required().label('Name'),
+// 	email: Yup.string().required().email().label('Email'),
+// 	msg: Yup.string().required().min(20).label('Message'),
+// });
 
 export const atmProcessingSchema = Yup.object().shape({
 	corporationName: Yup.string().required().label('Corporation Name'),
