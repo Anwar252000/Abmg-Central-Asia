@@ -12,7 +12,11 @@ const ContactForm = () => {
 	// use formik
 	const { handleChange, handleSubmit, handleBlur, errors, values, touched } =
 		useFormik({
-			initialValues: { name: '', email: '', msg: '' },
+			initialValues: {
+				name: 'test',
+				email: 'test@example.com',
+				msg: 'test@example.comtest@example.comtest@example.com',
+			},
 			validationSchema: contactSchema,
 			onSubmit: handleOnSubmit,
 		});
@@ -20,7 +24,7 @@ const ContactForm = () => {
 		<>
 			<form onSubmit={handleSubmit} id='contact-form'>
 				<div className='row'>
-					<div className='col-xl-6 col-lg-6'>
+					<div className='col-xl-12 col-lg-12'>
 						<div className='contact__input'>
 							<label>
 								Name <span className='required'>*</span>
@@ -35,7 +39,7 @@ const ContactForm = () => {
 							{touched.name && <ErrorMsg error={errors.name} />}
 						</div>
 					</div>
-					<div className='col-xl-6 col-lg-6'>
+					<div className='col-xl-12 col-lg-12'>
 						<div className='contact__input'>
 							<label>
 								Email <span className='required'>*</span>
@@ -51,7 +55,7 @@ const ContactForm = () => {
 						</div>
 					</div>
 				</div>
-				<div className='row'>
+				{/* <div className='row'>
 					<div className='col-xl-12'>
 						<div className='contact__input'>
 							<label>
@@ -67,12 +71,21 @@ const ContactForm = () => {
 							{touched.msg && <ErrorMsg error={errors.msg} />}
 						</div>
 					</div>
-				</div>
+				</div> */}
 				<div className='row'>
 					<div className='col-xl-12'>
 						<div className='contact__input'>
 							<label>Message</label>
-							<textarea cols='30' rows='10'></textarea>
+							<textarea
+								id='msg'
+								cols='30'
+								rows='10'
+								value={values.msg}
+								onChange={handleChange}
+								onBlur={handleBlur}
+								type='text'
+							></textarea>
+							{touched.email && <ErrorMsg error={errors.email} />}
 						</div>
 					</div>
 				</div>
