@@ -1,4 +1,3 @@
-import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import { Link } from 'react-router-dom';
 
@@ -100,21 +99,29 @@ const Footer = ({ df }) => {
 														<span>Phone Number: +92-335-2084477</span>
 													</div>
 												</li>
+												<li>
+													<div className='icon'>
+														<i className='fal fa-phone-alt'></i>
+													</div>
+													<div className='text'>
+														<span>Phone Number: +1(470)516-5306</span>
+													</div>
+												</li>
 											</ul>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className='col-xl-6 col-lg-6 col-md-6 col-12'>
-								{/* Footer Col 2 */}
-								{/* <SubscribeArea df h4 /> */}
-								<Calendar
+							{/* <div className='col-xl-6 col-lg-6 col-md-6 col-12'> */}
+							{/* Footer Col 2 */}
+							{/* <SubscribeArea df h4 /> */}
+							{/* <Calendar
 									prevLabel={<i className='fa fa-chevron-left'></i>}
 									prev2Label={<i className='fa fa-chevron-double-left'></i>}
 									nextLabel={<i className='fa fa-chevron-right'></i>}
 									next2Label={<i className='fa fa-chevron-double-right'></i>}
-								/>
-							</div>
+								/> */}
+							{/* </div> */}
 						</div>
 					</div>
 				</div>
