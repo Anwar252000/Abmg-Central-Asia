@@ -21,7 +21,7 @@ const Home = () => {
 				<title>Ultimate Financial Solutions</title>
 				<meta
 					name='keywords'
-					content='Ultimate, Financial, UFS, Finance, Business management'
+					content='Ultimate Financial Solutions, UFS, financial solutions, financial services, financial planning, financial advice money management, best financial solutions, comprehensive financial solutions, holistic financial solutions, financial solutions for individuals, financial solutions for businesses'
 				/>
 				<meta
 					name='description'

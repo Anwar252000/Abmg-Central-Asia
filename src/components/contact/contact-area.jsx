@@ -8,11 +8,11 @@ const ContactArea = () => {
 				<title>Contact Us | Ultimate Financial Solutions</title>
 				<meta
 					name='keywords'
-					content='Ultimate, Financial, UFS, Finance, Business management'
+					content='Ultimate Financial Solutions, UFS, financial solutions, financial services, financial planning, financial advice money management, best financial solutions, comprehensive financial solutions, holistic financial solutions, financial solutions for individuals, financial solutions for businesses'
 				/>
 				<meta
 					name='description'
-					content='Ultimate Financial Solutions is a comprehensive business management group consist of investment holding principal company'
+					content='Ultimate Financial Solutions is a Comprehensive business management group consist of investment holding principal company'
 				/>
 			</Helmet>
 			<section className='login-area my-4'>
