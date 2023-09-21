@@ -6,6 +6,14 @@ const ContactArea = () => {
 		<>
 			<Helmet>
 				<title>Contact Us | Ultimate Financial Solutions</title>
+				<meta
+					name='keywords'
+					content='Ultimate, Financial, UFS, Finance, Business management'
+				/>
+				<meta
+					name='description'
+					content='Ultimate Financial Solutions is a comprehensive business management group consist of investment holding principal company'
+				/>
 			</Helmet>
 			<section className='login-area my-4'>
 				<h1 className='component-heading'>Contact Us</h1>

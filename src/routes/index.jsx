@@ -19,6 +19,14 @@ const Home = () => {
 		<>
 			<Helmet>
 				<title>Ultimate Financial Solutions</title>
+				<meta
+					name='keywords'
+					content='Ultimate, Financial, UFS, Finance, Business management'
+				/>
+				<meta
+					name='description'
+					content='Ultimate Financial Solutions is a comprehensive business management group consist of investment holding principal company'
+				/>
 			</Helmet>
 			<HeroSlider />
 			<Introduction />
