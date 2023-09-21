@@ -8,6 +8,14 @@ const About = () => {
 		<>
 			<Helmet>
 				<title>About Us | Ultimate Financial Solutions</title>
+				<meta
+					name='keywords'
+					content='Ultimate, Financial, UFS, Finance, Business management'
+				/>
+				<meta
+					name='description'
+					content='Ultimate Financial Solutions is a comprehensive business management group consist of investment holding principal company'
+				/>
 			</Helmet>
 			<Breadcrumb title={'About Us'} subtitle={'About Us'} />
 			<h1 className='component-heading my-4'>About Us</h1>

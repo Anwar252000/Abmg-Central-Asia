@@ -9,6 +9,14 @@ const Cleints = () => {
 		<>
 			<Helmet>
 				<title>Clients | Ultimate Financial Solutions</title>
+				<meta
+					name='keywords'
+					content='Ultimate, Financial, UFS, Finance, Business management'
+				/>
+				<meta
+					name='description'
+					content='Ultimate Financial Solutions is a comprehensive business management group consist of investment holding principal company'
+				/>
 			</Helmet>
 			<Breadcrumb title={'Our Clients'} subtitle={'Our Clients'} />
 			<h2 className='component-heading mt-4'>Our Clients</h2>
