@@ -12,7 +12,7 @@ const ContactArea = () => {
 				/>
 				<meta
 					name='description'
-					content='Ultimate Financial Solutions is a comprehensive business management group consist of investment holding principal company'
+					content='Ultimate Financial Solutions is a Comprehensive business management group consist of investment holding principal company'
 				/>
 			</Helmet>
 			<section className='login-area my-4'>
