@@ -1,6 +1,6 @@
 import emailjs from 'emailjs-com';
 import React, { useRef } from 'react';
-import { toast, ToastContainer } from 'react-toastify';
+import { Helmet } from 'react-helmet';
 
 const ContactForm = () => {
 	const form = useRef();
@@ -25,6 +25,9 @@ const ContactForm = () => {
 
 	return (
 		<>
+			<Helmet>
+				<title>Contact Us | Ultimate Financial Solutions</title>
+			</Helmet>
 			<form ref={form} onSubmit={sendEmail} id='contact-form'>
 				<div className='row'>
 					<div className='col-xl-12 col-lg-12'>

@@ -12,10 +12,14 @@ import OurServices from '../components/our-services';
 import Experience from '../components/experience';
 import SecretarialService from '../components/secretarial-service';
 import BackToTopButton from '../components/back-to-top-button';
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
 	return (
 		<>
+			<Helmet>
+				<title>Ultimate Financial Solutions</title>
+			</Helmet>
 			<HeroSlider />
 			<Introduction />
 			<WhoWeAre />

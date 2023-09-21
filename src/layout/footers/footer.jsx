@@ -30,7 +30,7 @@ const Footer = ({ df }) => {
 	return (
 		<>
 			<section className={`footer__area footer-bg ${df ? 'box-m-15' : ''}`}>
-				<div className='footer__top pt-100 pb-60'>
+				<div className='footer__top pt-50 pb-20'>
 					<div className='container'>
 						<div className='row'>
 							<div className='col-xl-6 col-lg-6 col-md-6 col-12'>
@@ -104,7 +104,7 @@ const Footer = ({ df }) => {
 														<i className='fal fa-phone-alt'></i>
 													</div>
 													<div className='text'>
-														<span>Phone Number: +1(470)516-5306</span>
+														<span>Phone Number: +1 (470) 516-5306</span>
 													</div>
 												</li>
 											</ul>

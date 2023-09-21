@@ -2,10 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import clients from '../data/clients';
 import Breadcrumb from '../components/common/breadcrumb';
+import { Helmet } from 'react-helmet';
 
 const Cleints = () => {
 	return (
 		<>
+			<Helmet>
+				<title>Clients | Ultimate Financial Solutions</title>
+			</Helmet>
 			<Breadcrumb title={'Our Clients'} subtitle={'Our Clients'} />
 			<h2 className='component-heading mt-4'>Our Clients</h2>
 			<div className='container bg-dark-blue px-4 my-4'>

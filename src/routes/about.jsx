@@ -1,9 +1,14 @@
 import React from 'react';
 import Breadcrumb from '../components/common/breadcrumb';
+import { Helmet } from 'react-helmet';
+import OurTeam from '../components/our-team';
 
 const About = () => {
 	return (
 		<>
+			<Helmet>
+				<title>About Us | Ultimate Financial Solutions</title>
+			</Helmet>
 			<Breadcrumb title={'About Us'} subtitle={'About Us'} />
 			<h1 className='component-heading my-4'>About Us</h1>
 			<div className='container my-4'>
@@ -40,6 +45,7 @@ const About = () => {
 					</div>
 				</div>
 			</div>
+			<OurTeam />
 		</>
 	);
 };

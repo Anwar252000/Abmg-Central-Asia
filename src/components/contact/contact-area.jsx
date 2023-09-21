@@ -1,8 +1,12 @@
 import ContactForm from '../common/form/contact-form';
+import { Helmet } from 'react-helmet';
 
 const ContactArea = () => {
 	return (
 		<>
+			<Helmet>
+				<title>Contact Us | Ultimate Financial Solutions</title>
+			</Helmet>
 			<section className='login-area my-4'>
 				<h1 className='component-heading'>Contact Us</h1>
 				<div className='container bg-dark-blue'>
